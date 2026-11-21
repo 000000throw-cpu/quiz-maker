@@ -425,6 +425,59 @@ const quizBanks = {
 
 ]
   },
+  corpsHumain193:{
+    title: "Corps humain chapitre 9 - Test 3",
+        description: "Troisième test du chapitre 9",
+    questions:[
+{
+  question: "Nommez le A.",
+  correctAnswer: "Conduit hépatique doit",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le B.",
+  correctAnswer: "Conduit cystique",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le C.",
+  correctAnswer: "Vésicule biliaire",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le D.",
+  correctAnswer: "Duodénum",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le E.",
+  correctAnswer: "Ampoule hépatopancréatique",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le F.",
+  correctAnswer: "Conduit hépatique gauche",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le G.",
+  correctAnswer: "Conduit hépatique commun",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le H.",
+  correctAnswer: "Conduit cholédoque",
+  type: "text",
+  image: "/images/chapitre9.png",
+},{
+  question: "Nommez le I.",
+  correctAnswer: "Conduit pancréatique",
+  type: "text",
+  image: "/images/chapitre9.png",
+},
+
+]
+  },
 
   math: {
     title: "Mathematics",
