@@ -1,3 +1,4 @@
+
 (() => {
   "use strict";
 
@@ -590,9 +591,39 @@ const quizList = document.getElementById("quiz-list");
   }
 
   
+/* ========================================
+   QUESTION IMAGE
+======================================== */
+
+function renderQuestionImage(question) {
+  if (!question.image) return null;
+
+  const wrapper = createElement("div", "question-image-wrapper");
+
+  const img = document.createElement("img");
+
+  img.src = question.image;
+  img.alt = question.imageAlt || question.question;
+  img.className = "question-image";
+  img.loading = "lazy";
+
+  img.addEventListener("error", () => {
+    wrapper.textContent = "Unable to load question image.";
+    wrapper.classList.add("question-image-error");
+  });
+
+  wrapper.appendChild(img);
+
+  return wrapper;
+}
+
+  
 function prepareQuestions() {
   let prepared = questionBank.map((question) => {
-    
+  const imageData = {
+  image: question.image || null,
+  imageAlt: question.imageAlt || question.question
+};
 if (question.type === "fill-blank") {
   const parts = [];
   const correctAnswers = [];
@@ -614,6 +645,7 @@ if (question.type === "fill-blank") {
   parts.push(question.question.slice(lastIndex));
 
   return {
+    ...imageData,
     question: question.question,
     type: "fill-blank",
     parts,
@@ -623,6 +655,7 @@ if (question.type === "fill-blank") {
 
     if (question.type === "text-multiple") {
   return {
+    ...imageData,
     question: question.question,
     type: "text-multiple",
     correctAnswers: question.correctAnswer.map(String)
@@ -630,6 +663,7 @@ if (question.type === "fill-blank") {
 }
 if (question.type === "text") {
   return {
+    ...imageData,
     question: question.question,
     type: "text",
     correctAnswers: (
@@ -641,6 +675,7 @@ if (question.type === "text") {
 }
     if (question.type === "dragdrop") {
       return {
+        ...imageData,
         question: question.question,
         type: "dragdrop",
         pairs: question.pairs.map((pair, index) => ({
@@ -662,6 +697,7 @@ if (question.type === "text") {
     }));
 
     return {
+      ...imageData,
       question: question.question,
       type: question.type || "radio",
       choices: settings.shuffleAnswers
@@ -831,7 +867,11 @@ selections = questions.map(question => {
       question.question
     );
     container.append(heading, questionText);
-    
+    const questionImage = renderQuestionImage(question);
+
+if (questionImage) {
+  container.appendChild(questionImage);
+}
     
 if (question.type === "fill-blank") {
   // The sentence is rendered with input fields below.
@@ -2180,3 +2220,4 @@ document.addEventListener("keydown", (event) => {
 
   renderQuizSelection();
 })();
+
