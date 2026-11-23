@@ -287,9 +287,9 @@
         },
         corpsHumain192: {
             title: "Corps humain chapitre 9 - Test 2",
-            description: "Deuxième test du chapitre 9 (4)",
+            description: "Deuxième test du chapitre 9",
             questions: [{
-                    question: "Décrire la composition de la salive.",
+                    question: "Décrire la composition de la salive. (4)",
                     choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
                     correctAnswer: [
                         0,
