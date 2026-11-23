@@ -287,7 +287,7 @@
         },
         corpsHumain192: {
             title: "Corps humain chapitre 9 - Test 2",
-            description: "Deuxième test du chapitre 9",
+            description: "Deuxième test du chapitre 9 (4)",
             questions: [{
                     question: "Décrire la composition de la salive.",
                     choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
@@ -300,7 +300,7 @@
                     type: "checkboxes"
                 },
                 {
-                    question: "Décrire la composition du suc gastrique.",
+                    question: "Décrire la composition du suc gastrique. (6)",
                     choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
                     correctAnswer: [
                         0,
@@ -313,7 +313,7 @@
                     type: "checkboxes"
                 },
                 {
-                    question: "Décrire la composition du suc intestinal.",
+                    question: "Décrire la composition du suc intestinal. (5)",
                     choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
                     correctAnswer: [
                         8,
@@ -325,7 +325,7 @@
                     type: "checkboxes"
                 },
                 {
-                    question: "Décrire la composition du suc pancréatique.",
+                    question: "Décrire la composition du suc pancréatique. (5)",
                     choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
                     correctAnswer: [
                         0,
@@ -337,7 +337,7 @@
                     type: "checkboxes"
                 },
                 {
-                    question: "Décrire la composition de la bile.",
+                    question: "Décrire la composition de la bile. (5)",
                     choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
                     correctAnswer: [
                         0,
@@ -349,25 +349,25 @@
                     type: "checkboxes"
                 },
                 {
-                    question: "Nommez les fonctions de l'estomac.",
+                    question: "Nommez les fonctions de l'estomac. (5)",
                     choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
                     correctAnswer: [0, 1, 2, 3, 4],
                     type: "checkboxes"
                 },
                 {
-                    question: "Nommez les fonctions de l'intestin.",
+                    question: "Nommez les fonctions de l'intestin. (5)",
                     choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
                     correctAnswer: [0, 1, 2, 3, 4],
                     type: "checkboxes"
                 },
                 {
-                    question: "Nommez les fonctions du foie.",
+                    question: "Nommez les fonctions du foie. (5)",
                     choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
                     correctAnswer: [2, 5, 6, 7, 8],
                     type: "checkboxes"
                 },
                 {
-                    question: "Nommez les fonctions du gros intestin.",
+                    question: "Nommez les fonctions du gros intestin. (6)",
                     choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
                     correctAnswer: [2,4,1,3,9,10],
                     type: "checkboxes"
