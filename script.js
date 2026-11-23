@@ -279,7 +279,7 @@
                     type: "text"
                 },
                 {
-                    question: "Je brasse et mélange le chyme aux sucs gastriques, j'optimise la digestion et l'absorption.",
+                    question: "Je suis la contraction répétée et stationnaire des parois de l’intestin grêle. Ces contractions fragmentent le contenu de l’intestin grêle, tout en le mélangeant aux différentes sécrétions digestives.",
                     correctAnswer: "Segmentation",
                     type: "text"
                 }
