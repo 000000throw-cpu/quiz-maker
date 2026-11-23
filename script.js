@@ -355,7 +355,7 @@
                     type: "checkboxes"
                 },
                 {
-                    question: "Nommez les fonctions de l'intestin. (5)",
+                    question: "Nommez les fonctions de l'intestin grêle. (5)",
                     choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
                     correctAnswer: [0, 1, 2, 3, 4],
                     type: "checkboxes"
