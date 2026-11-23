@@ -561,6 +561,50 @@
 
             ]
         },
+        corpsHumain195: {
+    title: "Corps humain chapitre 9 - Test 4",
+    description: "Quatrième test du chapitre 9",
+    questions: [{
+        question: "L'amylase salivaire dégrade l'{{amidon}} en {{glucose}}-{{glucose}} dans la {{bouche}}, le {{pharynx}} et l'{{œsophage|oesophage}}.",
+        type: "fill-blank"
+    }, {
+        question: "L'acide chlorhydrique (HCl) du suc gastrique active le {{pepsinogène|pepsinogene}} en {{pepsine}} dans l'{{estomac}}.",
+        type: "fill-blank"
+    }, {
+        question: "La pepsine du suc gastrique dégrade les {{protéines|protéines dénaturées}} en {{polypeptides}} dans l'{{estomac}}.",
+        type: "fill-blank"
+    }, {
+        question: "La lipase gastrique du suc gastrique digère les {{triglycérides}} dans l'{{estomac}}.",
+        type: "fill-blank"
+    }, {
+        question: "Le facteur intrinsèque du suc gastrique facilite l'absorption de la {{vitamine B12|B12}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "La maltase du suc intestinal dégrade le {{maltose}} en {{glucose}}-{{glucose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "La sucrase du suc intestinal dégrade le {{sucrose|saccharose}} en {{glucose}}-{{fructose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "La lactase du suc intestinal dégrade le {{lactose}} en {{glucose}}-{{galactose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "La peptidase du suc intestinal dégrade les {{peptides|peptide}} en {{acides aminés|acide aminé}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "L'entérokinase du suc intestinal active les {{protéases pancréatiques inactives|protéases pancréatiques}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "La lipase pancréatique du suc pancréatique dégrade les {{triglycérides}} en {{monoglycérides}} + {{2 acides gras|acides gras}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "L'amylase pancréatique dégrade l'{{amidon}} en {{glucose}}-{{glucose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }, {
+        question: "Les protéases pancréatiques actives dégradent les {{polypeptides|polypeptide}} en {{peptides|peptide}} dans l'{{intestin grêle}}.",
+        type: "fill-blank"
+    }]
+},
         corpsHumain1101: {
             title: "Corps humain chapitre 10 - Test 1",
             description: "Premier test du chapitre 10",
