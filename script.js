@@ -290,7 +290,7 @@
             description: "Deuxième test du chapitre 9",
             questions: [{
                     question: "Décrire la composition de la salive.",
-                    choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Mucus", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
+                    choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
                     correctAnswer: [
                         0,
                         1,
