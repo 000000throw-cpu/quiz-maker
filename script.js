@@ -626,12 +626,12 @@
                     type: "text-multiple",
                 }, {
                     question: "Nommez caractéristiques de la muqueuse au niveau de l'intestin grêle qui facilitent l'absorption.",
-                    correctAnswer: ["Plis circulaires", "Villiosites intestinales", "Microvillosites"],
+                    correctAnswer: ["Plis circulaires" || "Pli circulaire", "Villiosités intestinales" || "Villiosité intestinale", "Microvillosités" || "Microvillosités"],
                     type: "text-multiple",
                 },
                 {
                     question: "Nommez les 2 voies de circulation utilisées par les nutriments absorbés.",
-                    correctAnswer: ["Capillaires sanguins" || "Circulation sanguines", "Vaisseaux chylifères" || "Circulation lymphatique"],
+                    correctAnswer: ["Capillaire sanguin" || "Capillaires sanguins" || "Circulations sanguines" || "Circulation sanguine", "Vaisseau chylifère" || "Vaisseaux chylifères" || "Circulation lymphatique" || "Circulations lymphatiques"],
                     type: "text-multiple",
                 }, {
                     question: "Nommez les 4 lipoprotéines.",
@@ -639,7 +639,7 @@
                     type: "text-multiple",
                 }, {
                     question: "Je suis un capillaire lymphatique spécialisé situé dans les villosités de l'intestin grêle, qui absorbe et transporte le chyle (la lymphe enrichie en lipides) vers la circulation lymphatique générale.",
-                    correctAnswer: "vaisseau chylifère",
+                    correctAnswer: "vaisseau chylifère" || "vaisseaux chylifères",
                     type: "text",
                 }, {
                     question: "Je suis un pigment jaune issu de la dégradation de l'hémoglobine des globules rouges.",
