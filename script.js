@@ -514,7 +514,7 @@
             description: "Troisième test du chapitre 9",
             questions: [{
                     question: "Nommez le A.",
-                    correctAnswer: "Conduit hépatique doit",
+                    correctAnswer: "Conduit hépatique droit",
                     type: "text",
                     image: "/images/chapitre9.png",
                 }, {
