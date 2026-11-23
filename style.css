@@ -1300,3 +1300,23 @@ body {
     max-height: 280px;
   }
 }
+
+
+/* Correct checkbox that was NOT selected */
+.answer-card.missed-answer {
+    background-color: #ffffff !important;
+    border: 2px solid #dc2626 !important;
+    color: #dc2626;
+}
+
+/* Red X icon */
+.answer-card.missed-answer .feedback-icon {
+    color: #dc2626 !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Keep the answer text readable */
+.answer-card.missed-answer .answer-text {
+    color: #172033;
+}
