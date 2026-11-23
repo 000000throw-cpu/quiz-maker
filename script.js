@@ -1769,29 +1769,49 @@
        FEEDBACK
     ======================================== */
 
-    function showAnswerFeedback() {
-        const question = questions[currentQuestion];
-        const selected = selections[currentQuestion];
+    
+function showAnswerFeedback() {
+    const question = questions[currentQuestion];
+    const selected = selections[currentQuestion];
 
-        const cards = quiz.querySelectorAll(".answer-card");
+    const cards = quiz.querySelectorAll(".answer-card");
 
-        cards.forEach((card, index) => {
-            const choice = question.choices[index];
-            const input = card.querySelector("input");
+    cards.forEach((card, index) => {
+        const choice = question.choices[index];
+        const input = card.querySelector("input");
 
-            input.disabled = true;
+        input.disabled = true;
 
-            if (choice.isCorrect) {
-                card.classList.add("correct-answer");
-                addFeedbackIcon(card, "✓");
-            }
+        const isSelected = selected.includes(index);
+        const isCorrect = choice.isCorrect;
 
-            if (selected.includes(index) && !choice.isCorrect) {
-                card.classList.add("wrong-answer");
-                addFeedbackIcon(card, "✕");
-            }
-        });
-    }
+        if (isCorrect && isSelected) {
+            // Correct answer selected: GREEN
+            card.classList.add("correct-answer");
+            addFeedbackIcon(card, "✓");
+
+        } else if (!isCorrect && isSelected) {
+            // Incorrect answer selected: RED
+            card.classList.add("wrong-answer");
+            addFeedbackIcon(card, "✕");
+
+        } else if (
+            question.type === "checkboxes" &&
+            isCorrect &&
+            !isSelected
+        ) {
+            // Correct answer missed: WHITE + RED BORDER
+            card.classList.add("missed-answer");
+            addFeedbackIcon(card, "✕");
+
+        } else if (isCorrect) {
+            // Keep existing radio-question behavior
+            card.classList.add("correct-answer");
+            addFeedbackIcon(card, "✓");
+        }
+    });
+}
+
 
     function addFeedbackIcon(card, symbol) {
         const existing = card.querySelector(".feedback-icon");
