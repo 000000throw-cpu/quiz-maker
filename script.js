@@ -92,7 +92,7 @@
                     correctAnswer: "Épithélial",
                     type: "radio"
                 }, {
-                    question: "Je suis avasculaire et j’ai une bonne capacite de regeneration.",
+                    question: "Je suis avasculaire et j’ai une bonne capacité de régénération.",
                     choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
                     correctAnswer: "Épithélial",
                     type: "radio"
@@ -116,7 +116,7 @@
                     type: "radio"
                 },
                 {
-                    question: "Mes formes sont squelettiques, lisses et cardiaques. J’ai une faible capacite de régénération.",
+                    question: "Mes formes sont squelettiques, lisses et cardiaques. J’ai une faible capacité de régénération.",
                     choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
                     correctAnswer: "Musculaire",
                     type: "radio"
@@ -128,57 +128,57 @@
                     type: "radio"
                 },
                 {
-                    question: "Je suis formé de neurones et de gliocytes. J’ai une faible/aucune capacite de régénération.",
+                    question: "Je suis formé de neurones et de gliocytes. J’ai une faible/aucune capacité de régénération.",
                     choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
                     correctAnswer: "Nerveux",
                     type: "radio"
                 },
                 {
                     question: "Ma fonction est de sécréter et d’absorber.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
                     correctAnswer: "Muqueuse",
                     type: "radio"
                 },
                 {
                     question: "Ma fonction est de fixer la muqueuse et la musculeuse.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
                     correctAnswer: "Sous-muqueuse",
                     type: "radio"
                 },
                 {
                     question: "Je suis fait de tissus conjonctif et nerveux.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
                     correctAnswer: "Sous-muqueuse",
                     type: "radio"
                 },
                 {
                     question: "Je contient les gros vaisseaux sanguins et lymphatiques et contrôle les sécrétions.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
                     correctAnswer: "Sous-muqueuse",
                     type: "radio"
                 },
                 {
                     question: "Ma fonction est le mouvement.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
                     correctAnswer: "Musculeuse",
                     type: "radio"
                 },
                 {
                     question: "Je suis fait de tissus musculaire et nerveux.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
                     correctAnswer: "Musculeuse",
                     type: "radio"
                 },
                 {
-                    question: "Je suis formé de deux couches sauf sauf dans l’estomac.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
+                    question: "Je suis formé de deux couches sauf dans l’estomac.",
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
                     correctAnswer: "Musculeuse",
                     type: "radio"
                 },
                 {
                     question: "Je fournis une barrière protectrice du tube digestif.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Sereuse"],
-                    correctAnswer: "Sereuse",
+                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+                    correctAnswer: "Séreuse",
                     type: "radio"
                 },
                 {
@@ -725,7 +725,7 @@
                     choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
                     type: "radio",
                 }, {
-                    question: "Je suis favorisé par l’ingestion de gras (poly)insaturés et j'augmente le cholestérol sanguin",
+                    question: "Je suis favorisé par l’ingestion de gras (poly)insaturés et je dimunue le cholestérol sanguin",
                     correctAnswer: "HDL",
                     choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
                     type: "radio",
