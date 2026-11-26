@@ -53,1058 +53,1184 @@
     ======================================== */
 
     const quizBanks = {
-        corpsHumain181: {
-            title: "Corps humain chapitre 8 - Test 1",
-            description: "Premier test du chapitre 8",
-            questions: [{
-                    question: "Je suis un groupe de cellules ayant une forme et une fonction commune.",
-                    correctAnswer: "Tissu",
-                    type: "text"
-                },
-                {
-                    question: "Je forme des replis qui s'insèrent entre les organes. Elle est formée de la couche séreuse",
-                    correctAnswer: "Péritoine",
-                    type: "text"
-                },
-                {
-                    question: "Nommez les 4 types de tissus",
-                    correctAnswer: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Nommez les 6 fonctions du système digestif",
-                    correctAnswer: ["Ingestion", "Sécrétion", "Brassage et propulsion", "Digestion", "Absorption", "Défécation"],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Nommez les 4 couches du tube digestif",
-                    correctAnswer: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    type: "text-multiple"
-                },
-            ]
-        },
-        corpsHumain182: {
-            title: "Corps humain chapitre 8 - Test 2",
-            description: "Deuxième test du chapitre 8",
-            questions: [{
-                    question: "Je suis le tissu de revêtement, j’absorbe, je secrète et j’offre une protection physique.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Épithélial",
-                    type: "radio"
-                }, {
-                    question: "Je suis avasculaire et j’ai une bonne capacité de régénération.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Épithélial",
-                    type: "radio"
-                },
-                {
-                    question: "Mes fonctions sont de soutenir, de proteger, d’offrir une liaison entre les organes et de mettre en réserve.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Conjonctif",
-                    type: "radio"
-                },
-                {
-                    question: "Je suis le tissu le plus abondant et j’ai généralement bonne capacité de régénération.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Conjonctif",
-                    type: "radio"
-                },
-                {
-                    question: "Je produis de la chaleur, je génère le mouvement et je maintien la posture.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Musculaire",
-                    type: "radio"
-                },
-                {
-                    question: "Mes formes sont squelettiques, lisses et cardiaques. J’ai une faible capacité de régénération.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Musculaire",
-                    type: "radio"
-                },
-                {
-                    question: "Mes fonctions sont de recevoir les stimulus extérieurs, de les analyser et de transmettre une réponse.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Nerveux",
-                    type: "radio"
-                },
-                {
-                    question: "Je suis formé de neurones et de gliocytes. J’ai une faible/aucune capacité de régénération.",
-                    choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
-                    correctAnswer: "Nerveux",
-                    type: "radio"
-                },
-                {
-                    question: "Ma fonction est de sécréter et d’absorber.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Muqueuse",
-                    type: "radio"
-                },
-                {
-                    question: "Ma fonction est de fixer la muqueuse et la musculeuse.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Sous-muqueuse",
-                    type: "radio"
-                },
-                {
-                    question: "Je suis fait de tissus conjonctif et nerveux.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Sous-muqueuse",
-                    type: "radio"
-                },
-                {
-                    question: "Je contient les gros vaisseaux sanguins et lymphatiques et contrôle les sécrétions.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Sous-muqueuse",
-                    type: "radio"
-                },
-                {
-                    question: "Ma fonction est le mouvement.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Musculeuse",
-                    type: "radio"
-                },
-                {
-                    question: "Je suis fait de tissus musculaire et nerveux.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Musculeuse",
-                    type: "radio"
-                },
-                {
-                    question: "Je suis formé de deux couches sauf dans l’estomac.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Musculeuse",
-                    type: "radio"
-                },
-                {
-                    question: "Je fournis une barrière protectrice du tube digestif.",
-                    choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
-                    correctAnswer: "Séreuse",
-                    type: "radio"
-                },
-                {
-                    question: "Je rattache l’intestin grêle à la paroi abdominale postérieure.",
-                    choices: ["Mésentère", "Péritoine viscéral", "Péritoine pariétal"],
-                    correctAnswer: "Mésentère",
-                    type: "radio"
-                },
-                {
-                    question: "Je tapisse l'extérieur des organes.",
-                    choices: ["Mésentère", "Péritoine viscéral", "Péritoine pariétal"],
-                    correctAnswer: "Péritoine viscéral",
-                    type: "radio"
-                },
-                {
-                    question: "Je tapisse la face interne des parois de l'abdomen.",
-                    choices: ["Mésentère", "Péritoine viscéral", "Péritoine pariétal"],
-                    correctAnswer: "Péritoine pariétal",
-                    type: "radio"
-                },
-            ]
-        },
-        corpsHumain191: {
-            title: "Corps humain chapitre 9 - Test 1",
-            description: "Premier test du chapitre 9",
-            questions: [{
-                    question: "Je réduis les aliments en plus petites particules.",
-                    correctAnswer: "Digestion mécanique",
-                    type: "text"
-                },
-                {
-                    question: "Je dégrade les grosses molécules en plus petites molécules.",
-                    correctAnswer: "Digestion chimique",
-                    type: "text"
-                },
-                {
-                    question: "Je suis une protéine qui catalyse une réaction chimique (catabolisme et anabolisme).",
-                    correctAnswer: "Enzyme",
-                    type: "text"
-                },
-                {
-                    question: "J'augmente la vitesse d'une réaction chimique et je suis spécifique pour une à deux molécules.",
-                    correctAnswer: "Enzyme",
-                    type: "text"
-                },
-                {
-                    question: "Je suis un liquide sécrété par une glande ou une muqueuse, contenant souvent des enzymes et d'autres substances.",
-                    correctAnswer: "Suc",
-                    type: "text"
-                },
-                {
-                    question: "Je suis un organe ou un groupe de cellules qui produit et libère des substances à la surface du corps ou dans une cavité naturelle.",
-                    correctAnswer: "Glande exocrine",
-                    type: "text"
-                },
-                {
-                    question: "Je suis un organe ou un groupe de cellules qui produit des hormones et les rejette directement dans la circulation sanguine, sans l'intermédiaire de canaux.",
-                    correctAnswer: "Glande endocrine",
-                    type: "text"
-                },
-                {
-                    question: "Je suis la nourriture mastiquée et imprégnée de salive.",
-                    correctAnswer: "Bol alimentaire",
-                    type: "text"
-                },
-                {
-                    question: "Je suis un liquide épais composé de nourriture mastiquée et de suc gastrique.",
-                    correctAnswer: "Chyme",
-                    type: "text"
-                },
-                {
-                    question: "Nommez les 3 glandes salivaires majeures.",
-                    correctAnswer: [
-                        "Glande salivaire parotide" || "parotide",
-                        "Glande salivaire sublinguale" || "sublinguale",
-                        "Glande salivaire submandibulaire" || "submandibulaire"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Nommez l'action de broyer, diviser et écraser les aliments solides dans la bouche.",
-                    correctAnswer: "Mastication",
-                    type: "text"
-                },
-                {
-                    question: "Nommez l'ensemble des contractions musculaires involontaires dans le système digestif faisant avancer la nourriture.",
-                    correctAnswer: "Péristaltisme",
-                    type: "text"
-                },
-                {
-                    question: "Je suis le pigment jaune provenant de la dégradation des érythrocytes.",
-                    correctAnswer: "Bilirubine",
-                    type: "text"
-                },
-                {
-                    question: "Je facilite l'absorption de la vitamine B12.",
-                    correctAnswer: "Facteur intrinsèque",
-                    type: "text"
-                },
-                {
-                    question: "Je suis la contraction répétée et stationnaire des parois de l’intestin grêle. Ces contractions fragmentent le contenu de l’intestin grêle, tout en le mélangeant aux différentes sécrétions digestives.",
-                    correctAnswer: "Segmentation",
-                    type: "text"
-                }
-            ]
-        },
-        corpsHumain192: {
-            title: "Corps humain chapitre 9 - Test 2",
-            description: "Deuxième test du chapitre 9",
-            questions: [{
-                    question: "Décrire la composition de la salive. (4)",
-                    choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
-                    correctAnswer: [
-                        0,
-                        1,
-                        2,
-                        3
-                    ],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Décrire la composition du suc gastrique. (6)",
-                    choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
-                    correctAnswer: [
-                        0,
-                        1,
-                        4,
-                        5,
-                        6,
-                        7
-                    ],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Décrire la composition du suc intestinal. (5)",
-                    choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
-                    correctAnswer: [
-                        8,
-                        9,
-                        10,
-                        11,
-                        12
-                    ],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Décrire la composition du suc pancréatique. (5)",
-                    choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
-                    correctAnswer: [
-                        0,
-                        2,
-                        13,
-                        14,
-                        15
-                    ],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Décrire la composition de la bile. (5)",
-                    choices: ["Eau", "Mucus", "Tampon bicarbonate/Ion bicarbonate", "Amylase salivaire", "HCl", "Pepsinogène", "Lipase gastrique", "Facteur intrinsèque", "Maltase", "Sucrase", "Lactase", "Peptidase", "Entérokinase", "Amylase pancréatique", "Lipase pancréatique", "Protéases pancréatiques inactives", "Sels biliaires", "Bilirubine", "Cholestérol"],
-                    correctAnswer: [
-                        0,
-                        2,
-                        16,
-                        17,
-                        18,
-                    ],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Nommez les fonctions de l'estomac. (5)",
-                    choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
-                    correctAnswer: [0, 1, 2, 3, 4],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Nommez les fonctions de l'intestin grêle. (5)",
-                    choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
-                    correctAnswer: [0, 1, 2, 3, 4],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Nommez les fonctions du foie. (5)",
-                    choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
-                    correctAnswer: [2, 5, 6, 7, 8],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Nommez les fonctions du gros intestin. (6)",
-                    choices: ["Digestion mécanique", "Digestion chimique", "Sécrétion", "Motilité", "Absorption", "Métabolisme", "Faire des réserves", "Traitement des substances toxiques", "Activation de la vitamine D", "Formation et stockage des fèces", "Défécation"],
-                    correctAnswer: [2,4,1,3,9,10],
-                    type: "checkboxes"
-                },
-                {
-                    question: "Je dissous la nourriture et nettoie la cavité orale.",
-                    choices: [
-                        "Eau",
-                        "Mucus",
-                        "Tampon bicarbonate (HCO₃⁻)"
-                    ],
-                    correctAnswer: "Eau",
-                    type: "radio"
-                },
-                {
-                    question: "Je lubrifie pour faciliter le passage de la masse et protège contre l'acidité.",
-                    choices: [
-                        "Eau",
-                        "Mucus",
-                        "Tampon bicarbonate (HCO₃⁻)"
-                    ],
-                    correctAnswer: "Mucus",
-                    type: "radio"
-                },
-                {
-                    question: "Je neutralise l'acidité des nutriments.",
-                    choices: [
-                        "Eau",
-                        "Mucus",
-                        "Tampon bicarbonate (HCO₃⁻)"
-                    ],
-                    correctAnswer: "Tampon bicarbonate (HCO₃⁻)",
-                    type: "radio"
-                }
-            ]
-        },
-        corpsHumain194: {
-            title: "Corps humain chapitre 9 - Test 2 (Avancé)",
-            description: "deuxième test du chapitre 9 qui est un peu plus difficile.",
-            questions: [{
-                    question: "Décrire la composition de la salive.",
-                    correctAnswer: [
-                        "Eau",
-                        "Mucus",
-                        "Tampon bicarbonate" || "Ion bicarbonate",
-                        "Amylase salivaire"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Décrire la composition du suc gastrique.",
-                    correctAnswer: [
-                        "Eau",
-                        "HCl",
-                        "Pepsinogène",
-                        "Lipase gastrique",
-                        "Mucus",
-                        "Facteur intrinsèque"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Décrire la composition du suc intestinal.",
-                    correctAnswer: [
-                        "Maltase",
-                        "Sucrase",
-                        "Lactase",
-                        "Peptidase",
-                        "Entérokinase"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Décrire la composition du suc pancréatique.",
-                    correctAnswer: [
-                        "Eau",
-                        "Tampon bicarbonate" || "Ion bicarbonate",
-                        "Amylase pancréatique",
-                        "Lipase pancréatique",
-                        "Protéase pancréatique" || "Protéase pancréatique inactive"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Décrire la composition de la bile.",
-                    correctAnswer: [
-                        "Sels biliaires",
-                        "Tampon bicarbonate" || "Ion bicarbonate",
-                        "Bilirubine",
-                        "Cholestérol",
-                        "Eau"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Nommez les fonctions de l'estomac.",
-                    correctAnswer: [
-                        "Sécrétion",
-                        "Digestion mécanique",
-                        "Digestion chimique",
-                        "Motilité",
-                        "Absorption"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Nommez les fonctions de l'intestin.",
-                    correctAnswer: [
-                        "Digestion mécanique",
-                        "Digestion chimique",
-                        "Sécrétion",
-                        "Motilité",
-                        "Absorption"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Nommez les fonctions du foie.",
-                    correctAnswer: [
-                        "Sécrétion",
-                        "Métabolisme",
-                        "Faire des réserves",
-                        "Traitement des substances toxiques",
-                        "Activation de la vitamine D"
-                    ],
-                    type: "text-multiple"
-                },
-                {
-                    question: "Nommez les fonctions du gros intestin.",
-                    correctAnswer: [
-                        "Sécrétion",
-                        "Absorption",
-                        "Digestion chimique",
-                        "Motilité",
-                        "Formation et stockage des fèces",
-                        "Défécation"
-                    ],
-                    type: "text-multiple"
-                }
-            ]
-        },
-        corpsHumain193: {
-            title: "Corps humain chapitre 9 - Test 3",
-            description: "Troisième test du chapitre 9",
-            questions: [{
-                    question: "Nommez le A.",
-                    correctAnswer: "Conduit hépatique droit",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le B.",
-                    correctAnswer: "Conduit cystique",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le C.",
-                    correctAnswer: "Vésicule biliaire",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le D.",
-                    correctAnswer: "Duodénum",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le E.",
-                    correctAnswer: "Ampoule hépatopancréatique",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le F.",
-                    correctAnswer: "Conduit hépatique gauche",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le G.",
-                    correctAnswer: "Conduit hépatique commun",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le H.",
-                    correctAnswer: "Conduit cholédoque",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                }, {
-                    question: "Nommez le I.",
-                    correctAnswer: "Conduit pancréatique",
-                    type: "text",
-                    image: "/images/chapitre9.png",
-                },
-
-            ]
-        },
-        corpsHumain195: {
+  corpsHumain181: {
+    title: "Corps humain chapitre 8 - Test 1",
+    description: "Premier test du chapitre 8",
+    questions: [
+      {
+        question:
+          "Je suis un groupe de cellules ayant une forme et une fonction commune.",
+        correctAnswer: "Tissu",
+        type: "text",
+      },
+      {
+        question:
+          "Je forme des replis qui s'insèrent entre les organes. Elle est formée de la couche séreuse",
+        correctAnswer: "Péritoine",
+        type: "text",
+      },
+      {
+        question: "Nommez les 4 types de tissus",
+        correctAnswer: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        type: "text-multiple",
+      },
+      {
+        question: "Nommez les 6 fonctions du système digestif",
+        correctAnswer: [
+          "Ingestion",
+          "Sécrétion",
+          "Brassage et propulsion",
+          "Digestion",
+          "Absorption",
+          "Défécation",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Nommez les 4 couches du tube digestif",
+        correctAnswer: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        type: "text-multiple",
+      },
+    ],
+  },
+  corpsHumain182: {
+    title: "Corps humain chapitre 8 - Test 2",
+    description: "Deuxième test du chapitre 8",
+    questions: [
+      {
+        question:
+          "Je suis le tissu de revêtement, j’absorbe, je secrète et j’offre une protection physique.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Épithélial",
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis avasculaire et j’ai une bonne capacité de régénération.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Épithélial",
+        type: "radio",
+      },
+      {
+        question:
+          "Mes fonctions sont de soutenir, de proteger, d’offrir une liaison entre les organes et de mettre en réserve.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Conjonctif",
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis le tissu le plus abondant et j’ai généralement bonne capacité de régénération.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Conjonctif",
+        type: "radio",
+      },
+      {
+        question:
+          "Je produis de la chaleur, je génère le mouvement et je maintien la posture.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Musculaire",
+        type: "radio",
+      },
+      {
+        question:
+          "Mes formes sont squelettiques, lisses et cardiaques. J’ai une faible capacité de régénération.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Musculaire",
+        type: "radio",
+      },
+      {
+        question:
+          "Mes fonctions sont de recevoir les stimulus extérieurs, de les analyser et de transmettre une réponse.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Nerveux",
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis formé de neurones et de gliocytes. J’ai une faible/aucune capacité de régénération.",
+        choices: ["Épithélial", "Conjonctif", "Musculaire", "Nerveux"],
+        correctAnswer: "Nerveux",
+        type: "radio",
+      },
+      {
+        question: "Ma fonction est de sécréter et d’absorber.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Muqueuse",
+        type: "radio",
+      },
+      {
+        question: "Ma fonction est de fixer la muqueuse et la musculeuse.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Sous-muqueuse",
+        type: "radio",
+      },
+      {
+        question: "Je suis fait de tissus conjonctif et nerveux.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Sous-muqueuse",
+        type: "radio",
+      },
+      {
+        question:
+          "Je contient les gros vaisseaux sanguins et lymphatiques et contrôle les sécrétions.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Sous-muqueuse",
+        type: "radio",
+      },
+      {
+        question: "Ma fonction est le mouvement.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Musculeuse",
+        type: "radio",
+      },
+      {
+        question: "Je suis fait de tissus musculaire et nerveux.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Musculeuse",
+        type: "radio",
+      },
+      {
+        question: "Je suis formé de deux couches sauf dans l’estomac.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Musculeuse",
+        type: "radio",
+      },
+      {
+        question: "Je fournis une barrière protectrice du tube digestif.",
+        choices: ["Muqueuse", "Sous-muqueuse", "Musculeuse", "Séreuse"],
+        correctAnswer: "Séreuse",
+        type: "radio",
+      },
+      {
+        question:
+          "Je rattache l’intestin grêle à la paroi abdominale postérieure.",
+        choices: ["Mésentère", "Péritoine viscéral", "Péritoine pariétal"],
+        correctAnswer: "Mésentère",
+        type: "radio",
+      },
+      {
+        question: "Je tapisse l'extérieur des organes.",
+        choices: ["Mésentère", "Péritoine viscéral", "Péritoine pariétal"],
+        correctAnswer: "Péritoine viscéral",
+        type: "radio",
+      },
+      {
+        question: "Je tapisse la face interne des parois de l'abdomen.",
+        choices: ["Mésentère", "Péritoine viscéral", "Péritoine pariétal"],
+        correctAnswer: "Péritoine pariétal",
+        type: "radio",
+      },
+    ],
+  },
+  corpsHumain191: {
+    title: "Corps humain chapitre 9 - Test 1",
+    description: "Premier test du chapitre 9",
+    questions: [
+      {
+        question: "Je réduis les aliments en plus petites particules.",
+        correctAnswer: "Digestion mécanique",
+        type: "text",
+      },
+      {
+        question: "Je dégrade les grosses molécules en plus petites molécules.",
+        correctAnswer: "Digestion chimique",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis une protéine qui catalyse une réaction chimique (catabolisme et anabolisme).",
+        correctAnswer: "Enzyme",
+        type: "text",
+      },
+      {
+        question:
+          "J'augmente la vitesse d'une réaction chimique et je suis spécifique pour une à deux molécules.",
+        correctAnswer: "Enzyme",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis un liquide sécrété par une glande ou une muqueuse, contenant souvent des enzymes et d'autres substances.",
+        correctAnswer: "Suc",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis un organe ou un groupe de cellules qui produit et libère des substances à la surface du corps ou dans une cavité naturelle.",
+        correctAnswer: "Glande exocrine",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis un organe ou un groupe de cellules qui produit des hormones et les rejette directement dans la circulation sanguine, sans l'intermédiaire de canaux.",
+        correctAnswer: "Glande endocrine",
+        type: "text",
+      },
+      {
+        question: "Je suis la nourriture mastiquée et imprégnée de salive.",
+        correctAnswer: "Bol alimentaire",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis un liquide épais composé de nourriture mastiquée et de suc gastrique.",
+        correctAnswer: "Chyme",
+        type: "text",
+      },
+      {
+        question: "Nommez les 3 glandes salivaires majeures.",
+        correctAnswer: [
+          "Glande salivaire parotide" || "parotide",
+          "Glande salivaire sublinguale" || "sublinguale",
+          "Glande salivaire submandibulaire" || "submandibulaire",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question:
+          "Nommez l'action de broyer, diviser et écraser les aliments solides dans la bouche.",
+        correctAnswer: "Mastication",
+        type: "text",
+      },
+      {
+        question:
+          "Nommez l'ensemble des contractions musculaires involontaires dans le système digestif faisant avancer la nourriture.",
+        correctAnswer: "Péristaltisme",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis le pigment jaune provenant de la dégradation des érythrocytes.",
+        correctAnswer: "Bilirubine",
+        type: "text",
+      },
+      {
+        question: "Je facilite l'absorption de la vitamine B12.",
+        correctAnswer: "Facteur intrinsèque",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis la contraction répétée et stationnaire des parois de l’intestin grêle. Ces contractions fragmentent le contenu de l’intestin grêle, tout en le mélangeant aux différentes sécrétions digestives.",
+        correctAnswer: "Segmentation",
+        type: "text",
+      },
+    ],
+  },
+  corpsHumain192: {
+    title: "Corps humain chapitre 9 - Test 2",
+    description: "Deuxième test du chapitre 9",
+    questions: [
+      {
+        question: "Décrire la composition de la salive. (4)",
+        choices: [
+          "Eau",
+          "Mucus",
+          "Tampon bicarbonate/Ion bicarbonate",
+          "Amylase salivaire",
+          "HCl",
+          "Pepsinogène",
+          "Lipase gastrique",
+          "Facteur intrinsèque",
+          "Maltase",
+          "Sucrase",
+          "Lactase",
+          "Peptidase",
+          "Entérokinase",
+          "Amylase pancréatique",
+          "Lipase pancréatique",
+          "Protéases pancréatiques inactives",
+          "Sels biliaires",
+          "Bilirubine",
+          "Cholestérol",
+        ],
+        correctAnswer: [0, 1, 2, 3],
+        type: "checkboxes",
+      },
+      {
+        question: "Décrire la composition du suc gastrique. (6)",
+        choices: [
+          "Eau",
+          "Mucus",
+          "Tampon bicarbonate/Ion bicarbonate",
+          "Amylase salivaire",
+          "HCl",
+          "Pepsinogène",
+          "Lipase gastrique",
+          "Facteur intrinsèque",
+          "Maltase",
+          "Sucrase",
+          "Lactase",
+          "Peptidase",
+          "Entérokinase",
+          "Amylase pancréatique",
+          "Lipase pancréatique",
+          "Protéases pancréatiques inactives",
+          "Sels biliaires",
+          "Bilirubine",
+          "Cholestérol",
+        ],
+        correctAnswer: [0, 1, 4, 5, 6, 7],
+        type: "checkboxes",
+      },
+      {
+        question: "Décrire la composition du suc intestinal. (5)",
+        choices: [
+          "Eau",
+          "Mucus",
+          "Tampon bicarbonate/Ion bicarbonate",
+          "Amylase salivaire",
+          "HCl",
+          "Pepsinogène",
+          "Lipase gastrique",
+          "Facteur intrinsèque",
+          "Maltase",
+          "Sucrase",
+          "Lactase",
+          "Peptidase",
+          "Entérokinase",
+          "Amylase pancréatique",
+          "Lipase pancréatique",
+          "Protéases pancréatiques inactives",
+          "Sels biliaires",
+          "Bilirubine",
+          "Cholestérol",
+        ],
+        correctAnswer: [8, 9, 10, 11, 12],
+        type: "checkboxes",
+      },
+      {
+        question: "Décrire la composition du suc pancréatique. (5)",
+        choices: [
+          "Eau",
+          "Mucus",
+          "Tampon bicarbonate/Ion bicarbonate",
+          "Amylase salivaire",
+          "HCl",
+          "Pepsinogène",
+          "Lipase gastrique",
+          "Facteur intrinsèque",
+          "Maltase",
+          "Sucrase",
+          "Lactase",
+          "Peptidase",
+          "Entérokinase",
+          "Amylase pancréatique",
+          "Lipase pancréatique",
+          "Protéases pancréatiques inactives",
+          "Sels biliaires",
+          "Bilirubine",
+          "Cholestérol",
+        ],
+        correctAnswer: [0, 2, 13, 14, 15],
+        type: "checkboxes",
+      },
+      {
+        question: "Décrire la composition de la bile. (5)",
+        choices: [
+          "Eau",
+          "Mucus",
+          "Tampon bicarbonate/Ion bicarbonate",
+          "Amylase salivaire",
+          "HCl",
+          "Pepsinogène",
+          "Lipase gastrique",
+          "Facteur intrinsèque",
+          "Maltase",
+          "Sucrase",
+          "Lactase",
+          "Peptidase",
+          "Entérokinase",
+          "Amylase pancréatique",
+          "Lipase pancréatique",
+          "Protéases pancréatiques inactives",
+          "Sels biliaires",
+          "Bilirubine",
+          "Cholestérol",
+        ],
+        correctAnswer: [0, 2, 16, 17, 18],
+        type: "checkboxes",
+      },
+      {
+        question: "Nommez les fonctions de l'estomac. (5)",
+        choices: [
+          "Digestion mécanique",
+          "Digestion chimique",
+          "Sécrétion",
+          "Motilité",
+          "Absorption",
+          "Métabolisme",
+          "Faire des réserves",
+          "Traitement des substances toxiques",
+          "Activation de la vitamine D",
+          "Formation et stockage des fèces",
+          "Défécation",
+        ],
+        correctAnswer: [0, 1, 2, 3, 4],
+        type: "checkboxes",
+      },
+      {
+        question: "Nommez les fonctions de l'intestin grêle. (5)",
+        choices: [
+          "Digestion mécanique",
+          "Digestion chimique",
+          "Sécrétion",
+          "Motilité",
+          "Absorption",
+          "Métabolisme",
+          "Faire des réserves",
+          "Traitement des substances toxiques",
+          "Activation de la vitamine D",
+          "Formation et stockage des fèces",
+          "Défécation",
+        ],
+        correctAnswer: [0, 1, 2, 3, 4],
+        type: "checkboxes",
+      },
+      {
+        question: "Nommez les fonctions du foie. (5)",
+        choices: [
+          "Digestion mécanique",
+          "Digestion chimique",
+          "Sécrétion",
+          "Motilité",
+          "Absorption",
+          "Métabolisme",
+          "Faire des réserves",
+          "Traitement des substances toxiques",
+          "Activation de la vitamine D",
+          "Formation et stockage des fèces",
+          "Défécation",
+        ],
+        correctAnswer: [2, 5, 6, 7, 8],
+        type: "checkboxes",
+      },
+      {
+        question: "Nommez les fonctions du gros intestin. (6)",
+        choices: [
+          "Digestion mécanique",
+          "Digestion chimique",
+          "Sécrétion",
+          "Motilité",
+          "Absorption",
+          "Métabolisme",
+          "Faire des réserves",
+          "Traitement des substances toxiques",
+          "Activation de la vitamine D",
+          "Formation et stockage des fèces",
+          "Défécation",
+        ],
+        correctAnswer: [2, 4, 1, 3, 9, 10],
+        type: "checkboxes",
+      },
+      {
+        question: "Je dissous la nourriture et nettoie la cavité orale.",
+        choices: ["Eau", "Mucus", "Tampon bicarbonate (HCO₃⁻)"],
+        correctAnswer: "Eau",
+        type: "radio",
+      },
+      {
+        question:
+          "Je lubrifie pour faciliter le passage de la masse et protège contre l'acidité.",
+        choices: ["Eau", "Mucus", "Tampon bicarbonate (HCO₃⁻)"],
+        correctAnswer: "Mucus",
+        type: "radio",
+      },
+      {
+        question: "Je neutralise l'acidité des nutriments.",
+        choices: ["Eau", "Mucus", "Tampon bicarbonate (HCO₃⁻)"],
+        correctAnswer: "Tampon bicarbonate (HCO₃⁻)",
+        type: "radio",
+      },
+    ],
+  },
+  corpsHumain194: {
+    title: "Corps humain chapitre 9 - Test 2 (Avancé)",
+    description: "deuxième test du chapitre 9 qui est un peu plus difficile.",
+    questions: [
+      {
+        question: "Décrire la composition de la salive.",
+        correctAnswer: [
+          "Eau",
+          "Mucus",
+          "Tampon bicarbonate" || "Ion bicarbonate",
+          "Amylase salivaire",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Décrire la composition du suc gastrique.",
+        correctAnswer: [
+          "Eau",
+          "HCl",
+          "Pepsinogène",
+          "Lipase gastrique",
+          "Mucus",
+          "Facteur intrinsèque",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Décrire la composition du suc intestinal.",
+        correctAnswer: [
+          "Maltase",
+          "Sucrase",
+          "Lactase",
+          "Peptidase",
+          "Entérokinase",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Décrire la composition du suc pancréatique.",
+        correctAnswer: [
+          "Eau",
+          "Tampon bicarbonate" || "Ion bicarbonate",
+          "Amylase pancréatique",
+          "Lipase pancréatique",
+          "Protéase pancréatique" || "Protéase pancréatique inactive",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Décrire la composition de la bile.",
+        correctAnswer: [
+          "Sels biliaires",
+          "Tampon bicarbonate" || "Ion bicarbonate",
+          "Bilirubine",
+          "Cholestérol",
+          "Eau",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Nommez les fonctions de l'estomac.",
+        correctAnswer: [
+          "Sécrétion",
+          "Digestion mécanique",
+          "Digestion chimique",
+          "Motilité",
+          "Absorption",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Nommez les fonctions de l'intestin.",
+        correctAnswer: [
+          "Digestion mécanique",
+          "Digestion chimique",
+          "Sécrétion",
+          "Motilité",
+          "Absorption",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Nommez les fonctions du foie.",
+        correctAnswer: [
+          "Sécrétion",
+          "Métabolisme",
+          "Faire des réserves",
+          "Traitement des substances toxiques",
+          "Activation de la vitamine D",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Nommez les fonctions du gros intestin.",
+        correctAnswer: [
+          "Sécrétion",
+          "Absorption",
+          "Digestion chimique",
+          "Motilité",
+          "Formation et stockage des fèces",
+          "Défécation",
+        ],
+        type: "text-multiple",
+      },
+    ],
+  },
+  corpsHumain193: {
+    title: "Corps humain chapitre 9 - Test 3",
+    description: "Troisième test du chapitre 9",
+    questions: [
+      {
+        question: "Nommez le A.",
+        correctAnswer: "Conduit hépatique droit",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le B.",
+        correctAnswer: "Conduit cystique",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le C.",
+        correctAnswer: "Vésicule biliaire",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le D.",
+        correctAnswer: "Duodénum",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le E.",
+        correctAnswer: "Ampoule hépatopancréatique",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le F.",
+        correctAnswer: "Conduit hépatique gauche",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le G.",
+        correctAnswer: "Conduit hépatique commun",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le H.",
+        correctAnswer: "Conduit cholédoque",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+      {
+        question: "Nommez le I.",
+        correctAnswer: "Conduit pancréatique",
+        type: "text",
+        image: "/images/chapitre9.png",
+      },
+    ],
+  },
+  corpsHumain195: {
     title: "Corps humain chapitre 9 - Test 4",
     description: "Quatrième test du chapitre 9",
-    questions: [{
-        question: "L'amylase salivaire dégrade l'{{amidon}} en {{maltose}} dans la {{bouche}}, le {{pharynx}} et l'{{œsophage|oesophage}}.",
-        type: "fill-blank"
-    }, {
-        question: "L'acide chlorhydrique (HCl) du suc gastrique active le {{pepsinogène|pepsinogene}} en {{pepsine}} dans l'{{estomac}}.",
-        type: "fill-blank"
-    }, {
-        question: "La pepsine du suc gastrique dégrade les {{protéines|protéines dénaturées}} en {{polypeptides}} dans l'{{estomac}}.",
-        type: "fill-blank"
-    }, {
-        question: "La lipase gastrique du suc gastrique digère les {{triglycérides}} dans l'{{estomac}}.",
-        type: "fill-blank"
-    }, {
-        question: "Le facteur intrinsèque du suc gastrique facilite l'absorption de la {{vitamine B12|B12}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "La maltase du suc intestinal dégrade le {{maltose}} en {{glucose}}-{{glucose}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "La sucrase du suc intestinal dégrade le {{sucrose}} en {{glucose}}-{{fructose}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "La lactase du suc intestinal dégrade le {{lactose}} en {{glucose}}-{{galactose}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "La peptidase du suc intestinal dégrade les {{peptides|peptide}} en {{acides aminés|acide aminé}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "L'entérokinase du suc intestinal active les {{protéases pancréatiques inactives|protéases pancréatiques}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "La lipase pancréatique du suc pancréatique dégrade les {{triglycérides}} en {{monoglycérides}} + {{2 acides gras|acides gras}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "L'amylase pancréatique dégrade l'{{amidon}} en {{maltose}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }, {
-        question: "Les protéases pancréatiques actives dégradent les {{polypeptides|polypeptide}} en {{peptides|peptide}} dans l'{{intestin grêle}}.",
-        type: "fill-blank"
-    }]
-},
-        corpsHumain1101: {
-            title: "Corps humain chapitre 10 - Test 1",
-            description: "Premier test du chapitre 10",
-            questions: [{
-                    question: "Je suis le passage des nutriments vers le sang ou la lymphe. Je me fait par les cellules épithéliales qui composent la muqueuse.",
-                    correctAnswer: "Absorption",
-                    type: "text",
-                }, {
-                    question: "Veine qui transporte du sang riche en nutriments nouvellement absorbés par les capillaires du tube digestif vers les capillaires du foie.",
-                    correctAnswer: "Veine porte hépatique",
-                    type: "text",
-                }, {
-                    question: "Vésicule de transport des lipides, formée d’une monocouche de phospholipides et de cholestérol avec protéines enchâssées.",
-                    correctAnswer: "Lipoprotéine",
-                    type: "text",
-                }, {
-                    question: "Nommez les organes où se fait l'absorption.",
-                    correctAnswer: ["Bouche", "Estomac", "Intestin grêle", "Gros intestin"],
-                    type: "text-multiple",
-                }, {
-                    question: "Nommez caractéristiques de la muqueuse au niveau de l'intestin grêle qui facilitent l'absorption.",
-                    correctAnswer: ["Plis circulaires" || "Pli circulaire", "Villiosités intestinales" || "Villiosité intestinale", "Microvillosités" || "Microvillosités"],
-                    type: "text-multiple",
-                },
-                {
-                    question: "Nommez les 2 voies de circulation utilisées par les nutriments absorbés.",
-                    correctAnswer: ["Capillaire sanguin" || "Capillaires sanguins" || "Circulations sanguines" || "Circulation sanguine", "Vaisseau chylifère" || "Vaisseaux chylifères" || "Circulation lymphatique" || "Circulations lymphatiques"],
-                    type: "text-multiple",
-                }, {
-                    question: "Nommez les 4 lipoprotéines.",
-                    correctAnswer: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "text-multiple",
-                }, {
-                    question: "Je suis un capillaire lymphatique spécialisé situé dans les villosités de l'intestin grêle, qui absorbe et transporte le chyle (la lymphe enrichie en lipides) vers la circulation lymphatique générale.",
-                    correctAnswer: "vaisseau chylifère" || "vaisseaux chylifères",
-                    type: "text",
-                }, {
-                    question: "Je suis un pigment jaune issu de la dégradation de l'hémoglobine des globules rouges.",
-                    correctAnswer: "Bilirubine",
-                    type: "text",
-                }, {
-                    question: "Je suis le pigment brun responsable de la couleur normale des selles, produit dans l'intestin lorsque les bactéries transforment la bilirubine issue de la bile.",
-                    correctAnswer: "Stercobiline",
-                    type: "text",
-                },
-            ]
-        },
-        corpsHumain1102: {
-            title: "Corps humain chapitre 10 - Test 2",
-            description: "Deuxième test du chapitre 10",
-            questions: [{
-                    question: "Je suis le passage des nutriments vers le sang ou la lymphe. Je me fait par les cellules épithéliales qui composent la muqueuse.",
-                    correctAnswer: "Absorption",
-                    type: "text",
-                },
-                {
-                    question: "Qu'est-ce qui est absorbé dans la bouche?",
-                    choices: ["Eau", "Ions", "Acide gras à chaîne courtes", "Médicaments", "Alcool", "Acides gras à chaîne longues", "Monosaccharides", "Acides aminés", "Cholestérol", "Vitamines"],
-                    correctAnswer: [3],
-                    type: "checkboxes",
-                },
-                {
-                    question: "Qu'est-ce qui est absorbé dans l'estomac?",
-                    choices: ["Eau", "Ions", "Acide gras à chaîne courtes", "Médicaments", "Alcool", "Acides gras à chaîne longues", "Monosaccharides", "Acides aminés", "Cholestérol", "Vitamines"],
-                    correctAnswer: [0, 1, 2, 3, 4],
-                    type: "checkboxes",
-                },
-                {
-                    question: "Qu'est-ce qui est absorbé dans l'intestin grêle?",
-                    choices: ["Eau", "Ions", "Acide gras à chaîne courtes", "Médicaments", "Alcool", "Acides gras à chaîne longues", "Monosaccharides", "Acides aminés", "Cholestérol", "Vitamines"],
-                    correctAnswer: [0, 1, 5, 6, 7, 8, 9],
-                    type: "checkboxes",
-                },
-                {
-                    question: "Qu'est-ce qui est absorbé dans le gros intestin?",
-                    choices: ["Eau", "Ions", "Acide gras à chaîne courtes", "Médicaments", "Alcool", "Acides gras à chaîne longues", "Monosaccharides", "Acides aminés", "Cholestérol", "Vitamines"],
-                    correctAnswer: [0, 1, 9],
-                    type: "checkboxes",
-                },
-                {
-                    question: "Nommez les nutriments absorbés dans les capillaires sanguins (Circulation sanguines).",
-                    choices: ["Acides gras à chaînes courtes", "Acides aminés", "Monosaccharides", "Ions", "Eau", "Vitamines BC", "Vitamines ADEK", "Cholestérol", "Acides gras à chaines longues/Triglycérides"],
-                    correctAnswer: [0, 1, 2, 3, 4, 5],
-                    type: "checkboxes",
-                }, {
-                    question: "Nommez les nutriments absorbés dans les vaisseaux chylifères (circulation lymphatique).",
-                    choices: ["Acides gras à chaînes courtes", "Acides aminés", "Monosaccharides", "Ions", "Eau", "Vitamines BC", "Vitamines ADEK", "Cholestérol", "Acides gras à chaines longues/Triglycérides"],
-                    correctAnswer: [6, 7, 8],
-                    type: "checkboxes",
-                }, {
-                    question: "Je  transporte le TG à chaînes longues, vitamines adek et cholestérol des cellules épithéliales aux vaisseaux chylifères.",
-                    correctAnswer: "Chylomicron",
-                    choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "radio",
-                }, {
-                    question: "Je suis produis par le foie et contiens cholestérol, TG et vitamine ADEK.",
-                    correctAnswer: "VLDL",
-                    choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "radio",
-                }, {
-                    question: "Je transporte les triglycérides vers adipocytes et je devient un LDL",
-                    correctAnswer: "VLDL",
-                    choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "radio",
-                }, {
-                    question: "Je suis favorisé par l’ingestion de gras saturés et trans et j'aumente le cholestérol sanguin",
-                    correctAnswer: [1, 2],
-                    choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "checkboxes",
-                }, {
-                    question: "J'apporte le cholestérol et vitamine ADEK aux cellules et mon excédent de cholestérol demeure dans le sang",
-                    correctAnswer: "LDL",
-                    choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "radio",
-                }, {
-                    question: "Je suis produit par le foie et je ramène le cholestérol sanguin au foie",
-                    correctAnswer: "HDL",
-                    choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "radio",
-                }, {
-                    question: "Je suis favorisé par l’ingestion de gras (poly)insaturés et je dimunue le cholestérol sanguin",
-                    correctAnswer: "HDL",
-                    choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
-                    type: "radio",
-                }, {
-                    question: "Je suis la forme de bilirubine soluble dans l'eau produite par le foie avant d'être évacuée dans la bile puis dans l'intestin.",
-                    correctAnswer: "Bilirubine conjuguée" || "conjuguée",
-                    type: "text",
-                }, {
-                    question: "Je suis la forme de bilirubine insoluble dans l'eau produit lors de la dégradation de l'hémoglobine des globules rouges qui voyage dans le sang jusqu'au foie.",
-                    correctAnswer: "Bilirubine non conjuguée" || "non conjuguée",
-                    type: "text",
-                },
-            ]
-        },
-corpsHumain1111: {
+    questions: [
+      {
+        question:
+          "L'amylase salivaire dégrade l'{{amidon}} en {{maltose}} dans la {{bouche}}, le {{pharynx}} et l'{{œsophage|oesophage}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "L'acide chlorhydrique (HCl) du suc gastrique active le {{pepsinogène|pepsinogene}} en {{pepsine}} dans l'{{estomac}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "La pepsine du suc gastrique dégrade les {{protéines|protéines dénaturées}} en {{polypeptides}} dans l'{{estomac}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "La lipase gastrique du suc gastrique digère les {{triglycérides}} dans l'{{estomac}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "Le facteur intrinsèque du suc gastrique facilite l'absorption de la {{vitamine B12|B12}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "La maltase du suc intestinal dégrade le {{maltose}} en {{glucose}}-{{glucose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "La sucrase du suc intestinal dégrade le {{sucrose}} en {{glucose}}-{{fructose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "La lactase du suc intestinal dégrade le {{lactose}} en {{glucose}}-{{galactose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "La peptidase du suc intestinal dégrade les {{peptides|peptide}} en {{acides aminés|acide aminé}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "L'entérokinase du suc intestinal active les {{protéases pancréatiques inactives|protéases pancréatiques}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "La lipase pancréatique du suc pancréatique dégrade les {{triglycérides}} en {{monoglycérides}} + {{2 acides gras|acides gras}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "L'amylase pancréatique dégrade l'{{amidon}} en {{maltose}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+      {
+        question:
+          "Les protéases pancréatiques actives dégradent les {{polypeptides|polypeptide}} en {{peptides|peptide}} dans l'{{intestin grêle}}.",
+        type: "fill-blank",
+      },
+    ],
+  },
+  corpsHumain1101: {
+    title: "Corps humain chapitre 10 - Test 1",
+    description: "Premier test du chapitre 10",
+    questions: [
+      {
+        question:
+          "Je suis le passage des nutriments vers le sang ou la lymphe. Je me fait par les cellules épithéliales qui composent la muqueuse.",
+        correctAnswer: "Absorption",
+        type: "text",
+      },
+      {
+        question:
+          "Veine qui transporte du sang riche en nutriments nouvellement absorbés par les capillaires du tube digestif vers les capillaires du foie.",
+        correctAnswer: "Veine porte hépatique",
+        type: "text",
+      },
+      {
+        question:
+          "Vésicule de transport des lipides, formée d’une monocouche de phospholipides et de cholestérol avec protéines enchâssées.",
+        correctAnswer: "Lipoprotéine",
+        type: "text",
+      },
+      {
+        question: "Nommez les organes où se fait l'absorption.",
+        correctAnswer: ["Bouche", "Estomac", "Intestin grêle", "Gros intestin"],
+        type: "text-multiple",
+      },
+      {
+        question:
+          "Nommez caractéristiques de la muqueuse au niveau de l'intestin grêle qui facilitent l'absorption.",
+        correctAnswer: [
+          "Plis circulaires" || "Pli circulaire",
+          "Villiosités intestinales" || "Villiosité intestinale",
+          "Microvillosités" || "Microvillosités",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question:
+          "Nommez les 2 voies de circulation utilisées par les nutriments absorbés.",
+        correctAnswer: [
+          "Capillaire sanguin" ||
+            "Capillaires sanguins" ||
+            "Circulations sanguines" ||
+            "Circulation sanguine",
+          "Vaisseau chylifère" ||
+            "Vaisseaux chylifères" ||
+            "Circulation lymphatique" ||
+            "Circulations lymphatiques",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question: "Nommez les 4 lipoprotéines.",
+        correctAnswer: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "text-multiple",
+      },
+      {
+        question:
+          "Je suis un capillaire lymphatique spécialisé situé dans les villosités de l'intestin grêle, qui absorbe et transporte le chyle (la lymphe enrichie en lipides) vers la circulation lymphatique générale.",
+        correctAnswer: "vaisseau chylifère" || "vaisseaux chylifères",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis un pigment jaune issu de la dégradation de l'hémoglobine des globules rouges.",
+        correctAnswer: "Bilirubine",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis le pigment brun responsable de la couleur normale des selles, produit dans l'intestin lorsque les bactéries transforment la bilirubine issue de la bile.",
+        correctAnswer: "Stercobiline",
+        type: "text",
+      },
+    ],
+  },
+  corpsHumain1102: {
+    title: "Corps humain chapitre 10 - Test 2",
+    description: "Deuxième test du chapitre 10",
+    questions: [
+      {
+        question:
+          "Je suis le passage des nutriments vers le sang ou la lymphe. Je me fait par les cellules épithéliales qui composent la muqueuse.",
+        correctAnswer: "Absorption",
+        type: "text",
+      },
+      {
+        question: "Qu'est-ce qui est absorbé dans la bouche?",
+        choices: [
+          "Eau",
+          "Ions",
+          "Acide gras à chaîne courtes",
+          "Médicaments",
+          "Alcool",
+          "Acides gras à chaîne longues",
+          "Monosaccharides",
+          "Acides aminés",
+          "Cholestérol",
+          "Vitamines",
+        ],
+        correctAnswer: [3],
+        type: "checkboxes",
+      },
+      {
+        question: "Qu'est-ce qui est absorbé dans l'estomac?",
+        choices: [
+          "Eau",
+          "Ions",
+          "Acide gras à chaîne courtes",
+          "Médicaments",
+          "Alcool",
+          "Acides gras à chaîne longues",
+          "Monosaccharides",
+          "Acides aminés",
+          "Cholestérol",
+          "Vitamines",
+        ],
+        correctAnswer: [0, 1, 2, 3, 4],
+        type: "checkboxes",
+      },
+      {
+        question: "Qu'est-ce qui est absorbé dans l'intestin grêle?",
+        choices: [
+          "Eau",
+          "Ions",
+          "Acide gras à chaîne courtes",
+          "Médicaments",
+          "Alcool",
+          "Acides gras à chaîne longues",
+          "Monosaccharides",
+          "Acides aminés",
+          "Cholestérol",
+          "Vitamines",
+        ],
+        correctAnswer: [0, 1, 5, 6, 7, 8, 9],
+        type: "checkboxes",
+      },
+      {
+        question: "Qu'est-ce qui est absorbé dans le gros intestin?",
+        choices: [
+          "Eau",
+          "Ions",
+          "Acide gras à chaîne courtes",
+          "Médicaments",
+          "Alcool",
+          "Acides gras à chaîne longues",
+          "Monosaccharides",
+          "Acides aminés",
+          "Cholestérol",
+          "Vitamines",
+        ],
+        correctAnswer: [0, 1, 9],
+        type: "checkboxes",
+      },
+      {
+        question:
+          "Nommez les nutriments absorbés dans les capillaires sanguins (Circulation sanguines).",
+        choices: [
+          "Acides gras à chaînes courtes",
+          "Acides aminés",
+          "Monosaccharides",
+          "Ions",
+          "Eau",
+          "Vitamines BC",
+          "Vitamines ADEK",
+          "Cholestérol",
+          "Acides gras à chaines longues/Triglycérides",
+        ],
+        correctAnswer: [0, 1, 2, 3, 4, 5],
+        type: "checkboxes",
+      },
+      {
+        question:
+          "Nommez les nutriments absorbés dans les vaisseaux chylifères (circulation lymphatique).",
+        choices: [
+          "Acides gras à chaînes courtes",
+          "Acides aminés",
+          "Monosaccharides",
+          "Ions",
+          "Eau",
+          "Vitamines BC",
+          "Vitamines ADEK",
+          "Cholestérol",
+          "Acides gras à chaines longues/Triglycérides",
+        ],
+        correctAnswer: [6, 7, 8],
+        type: "checkboxes",
+      },
+      {
+        question:
+          "Je  transporte le TG à chaînes longues, vitamines adek et cholestérol des cellules épithéliales aux vaisseaux chylifères.",
+        correctAnswer: "Chylomicron",
+        choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis produis par le foie et contiens cholestérol, TG et vitamine ADEK.",
+        correctAnswer: "VLDL",
+        choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "radio",
+      },
+      {
+        question:
+          "Je transporte les triglycérides vers adipocytes et je devient un LDL",
+        correctAnswer: "VLDL",
+        choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis favorisé par l’ingestion de gras saturés et trans et j'aumente le cholestérol sanguin",
+        correctAnswer: [1, 2],
+        choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "checkboxes",
+      },
+      {
+        question:
+          "J'apporte le cholestérol et vitamine ADEK aux cellules et mon excédent de cholestérol demeure dans le sang",
+        correctAnswer: "LDL",
+        choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis produit par le foie et je ramène le cholestérol sanguin au foie",
+        correctAnswer: "HDL",
+        choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis favorisé par l’ingestion de gras (poly)insaturés et je dimunue le cholestérol sanguin",
+        correctAnswer: "HDL",
+        choices: ["Chylomicron", "VLDL", "LDL", "HDL"],
+        type: "radio",
+      },
+      {
+        question:
+          "Je suis la forme de bilirubine soluble dans l'eau produite par le foie avant d'être évacuée dans la bile puis dans l'intestin.",
+        correctAnswer: "Bilirubine conjuguée" || "conjuguée",
+        type: "text",
+      },
+      {
+        question:
+          "Je suis la forme de bilirubine insoluble dans l'eau produit lors de la dégradation de l'hémoglobine des globules rouges qui voyage dans le sang jusqu'au foie.",
+        correctAnswer: "Bilirubine non conjuguée" || "non conjuguée",
+        type: "text",
+      },
+    ],
+  },
+  corpsHumain1111: {
     title: "Corps humain chapitre 11 - Test 1",
-    description: "Questions à réponse courte sur la régulation de la digestion.",
-    questions: [{
-        question: "Quelle phase de la digestion est déclenchée par la présence d'aliments appétissants ou la pensée à des aliments appétissants?",
+    description:
+      "Questions à réponse courte sur la régulation de la digestion.",
+    questions: [
+      {
+        question:
+          "Quelle phase de la digestion est déclenchée par la présence d'aliments appétissants ou la pensée à des aliments appétissants?",
         correctAnswer: ["Phase céphalique", "Céphalique"],
-        type: "text"
-    }, {
-        question: "Quelle phase de la digestion est déclenchée par l'arrivée du bol alimentaire dans l’estomac?",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle phase de la digestion est déclenchée par l'arrivée du bol alimentaire dans l’estomac?",
         correctAnswer: ["Phase gastrique", "Gastrique"],
-        type: "text"
-    },{
-        question: "Quelle phase de la digestion est déclenchée par l'arrivée du chyme dans le duodénum?",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle phase de la digestion est déclenchée par l'arrivée du chyme dans le duodénum?",
         correctAnswer: ["Phase intestinale", "Intestinale"],
-        type: "text"
-    },{
+        type: "text",
+      },
+      {
         question: "Quel est le centre de régulation de la phase céphalique?",
         correctAnswer: "Tronc cérébral",
-        type: "text"
-    },{
-        question: "Quel est le centre de régulation de la phase gastrique? (Régulation nerveuse)",
+        type: "text",
+      },
+      {
+        question:
+          "Quel est le centre de régulation de la phase gastrique? (Régulation nerveuse)",
         correctAnswer: "Tronc cérébral et SNE",
-        type: "text"
-    }, {
-        question: "Quel est le centre de régulation de la phase intestinale? (Régulation nerveuse)",
+        type: "text",
+      },
+      {
+        question:
+          "Quel est le centre de régulation de la phase intestinale? (Régulation nerveuse)",
         correctAnswer: "Tronc cérébral et SNE",
-        type: "text"
-    }, {
-        question: "Quel est le récepteur et le centre de régulation de la phase gastrique? (Régulation hormonale)",
-        correctAnswer: ["Cellules G","Cellule G"],
-        type: "text"
-    }, {
-        question: "Quels sont le récepteur et le centre de régulation de la phase intestinal? (Régulation hormonale)",
-        correctAnswer: ["Cellules CCK"|| "Cellule CCK","Cellules S"|| "Cellule S"],
-        type: "text-multiple"
-    }, {
-        question: "Quel type de récepteur détecte l'étirement de la paroi de l'estomac?",
+        type: "text",
+      },
+      {
+        question:
+          "Quel est le récepteur et le centre de régulation de la phase gastrique? (Régulation hormonale)",
+        correctAnswer: ["Cellules G", "Cellule G"],
+        type: "text",
+      },
+      {
+        question:
+          "Quels sont le récepteur et le centre de régulation de la phase intestinal? (Régulation hormonale)",
+        correctAnswer: [
+          "Cellules CCK" || "Cellule CCK",
+          "Cellules S" || "Cellule S",
+        ],
+        type: "text-multiple",
+      },
+      {
+        question:
+          "Quel type de récepteur détecte l'étirement de la paroi de l'estomac?",
         correctAnswer: ["Mécanorécepteur", "Mécanorécepteurs"],
-        type: "text"
-    }, {
-        question: "Quel type de récepteur détecte les variations du pH gastrique?",
+        type: "text",
+      },
+      {
+        question:
+          "Quel type de récepteur détecte les variations du pH gastrique?",
         correctAnswer: ["Chimiorécepteur", "Chimiorécepteurs"],
-        type: "text"
-    }, {
+        type: "text",
+      },
+      {
         question: "Quelle(s) hormone(s) est sécrétée par les cellules G?",
         correctAnswer: "Gastrine",
-        type: "text"
-    }, {
+        type: "text",
+      },
+      {
         question: "Quelle(s) hormone(s) est sécrétée par les cellules CCK?",
         correctAnswer: ["Cholécystokinine", "CCK"],
-        type: "text"
-    }, {
+        type: "text",
+      },
+      {
         question: "Quelle(s) hormone(s) est sécrétée par les cellules S?",
         correctAnswer: ["Sécrétine", "S"],
-        type: "text"
-    },{
-        question: "Quelle(s) hormone(s) augmente les contractions de la musculeuse gastrique",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) augmente les contractions de la musculeuse gastrique",
         correctAnswer: "Gastrine",
-        type: "text"
-    },{
-        question: "Quelle(s) hormone(s) augmente les sécrétions de la muqueuse gastrique",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) augmente les sécrétions de la muqueuse gastrique",
         correctAnswer: "Gastrine",
-        type: "text"
-    }, {
-        question: "Quelle(s) hormone(s) contracte le spincter oesophagien inférieur?",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) contracte le spincter oesophagien inférieur?",
         correctAnswer: "Gastrine",
-        type: "text"
-    }, {
+        type: "text",
+      },
+      {
         question: "Quelle(s) hormone(s) relâche le spincter pylorique?",
         correctAnswer: "Gastrine",
-        type: "text"
-    },{
+        type: "text",
+      },
+      {
         question: "Quelle(s) hormone(s) contracte la vésicule biliaire?",
         correctAnswer: ["Cholécystokinine", "CCK"],
-        type: "text"
-    }, {
-        question: "Quelle(s) hormone(s) relâche le sphincter de l'ampoule hépatopancréatique?",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) relâche le sphincter de l'ampoule hépatopancréatique?",
         correctAnswer: ["Cholécystokinine", "CCK"],
-        type: "text"
-    },{
-        question: "Quelle(s) hormone(s) augmente la sécrétion de bile par le foie?",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) augmente la sécrétion de bile par le foie?",
         correctAnswer: "Sécrétine",
-        type: "text"
-    },{
-        question: "Quelle(s) hormone(s) dimunue les contractions de la musculeuse gastrique?",
-        correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
-        type: "text"
-    },{
-        question: "Quelle(s) hormone(s) diminue les sécrétions de la muqueuse gastrique?",
-        correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
-        type: "text"
-    },{
-        question: "Quelle(s) hormone(s) augmente la sécrétion de suc pancréatique?",
-        correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
-        type: "text"
-    }]
-},
-corpsHumain1112: {
-    title: "Corps humain chapitre 11 - Test 2",
-    description: "Questions à réponses multiples sur la régulation de la digestion.",
-    questions: [{
-        question: "Nommez les 5 déséquilibres de la phase céphalique.",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) dimunue les contractions de la musculeuse gastrique?",
         correctAnswer: [
-            "Vue",
-            "Odeur",
-            "Son",
-            "Goût",
-            "Toucher"
+          "Sécrétine et CCK",
+          "Sécrétine CCK",
+          "CCK et Sécrétine",
+          "CCK Sécrétine",
         ],
-        type: "text-multiple"
-    }, {
-        question: "Nommez les 3 effecteurs de la phase céphalique.",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) diminue les sécrétions de la muqueuse gastrique?",
         correctAnswer: [
-            "Glandes salivaires",
-            "Muqueuse gastrique",
-            "Musculeuse gastrique"
+          "Sécrétine et CCK",
+          "Sécrétine CCK",
+          "CCK et Sécrétine",
+          "CCK Sécrétine",
         ],
-        type: "text-multiple"
-    }, {
-        question: "Nommez les 4 effecteurs de la phase gastrique.",
+        type: "text",
+      },
+      {
+        question:
+          "Quelle(s) hormone(s) augmente la sécrétion de suc pancréatique?",
         correctAnswer: [
-            "Musculeuse gastrique",
-            "Muqueuse gastrique",
-            "Sphincter œsophagien inférieur",
-            "Sphincter pylorique"
+          "Sécrétine et CCK",
+          "Sécrétine CCK",
+          "CCK et Sécrétine",
+          "CCK Sécrétine",
         ],
-        type: "text-multiple"
-    }, {
-        question: "Nommez les 3 hormones qui participent à la régulation de la digestion dans les phases gastrique et intestinale.",
+        type: "text",
+      },
+      {
+        question: "Quelles sont les 3 effecteurs de la phase céphalique?",
         correctAnswer: [
-            "Gastrine",
-            "Cholécystokinine",
-            "Sécrétine"
+          "Glandes salivaires",
+          "Muqueuse gastrique",
+          "Musculeuse gastrique",
         ],
-        type: "text-multiple"
-    }, {
-        question: "Nommez les 6 effecteurs de la phase intestinale hormonale.",
+        type: "text-multiple",
+      },
+      {
+        question: "Quelles sont les 4 effecteurs de la phase gastrique?",
         correctAnswer: [
-            "Vésicule biliaire",
-            "Sphincter de l'ampoule hépatopancréatique",
-            "Foie",
-            "Musculeuse gastrique",
-            "Muqueuse gastrique",
-            "Sphincter pylorique",
-            "Pancréas"
+          "Sphincter pylorique",
+          "Sphincter œsophagien inférieur",
+          "Muqueuse gastrique",
+          "Musculeuse gastrique",
         ],
-        type: "text-multiple"
-    }]
-},
+        type: "text-multiple",
+      },
+      {
+        question:
+          "Quelles sont les 2 effecteurs de la phase intestinale en régulation nerveuse?",
+        correctAnswer: ["Musculeuse gastrique", "Muqueuse gastrique"],
+        type: "text-multiple",
+      },
+      {
+        question:
+          "Quelles sont les 2 effecteurs de la phase intestinale en régulation hormonale?",
+        correctAnswer: [
+          "Vésicule biliaire",
+          "Sphincter de l’ampoule hépatopancréatique",
+          "Foie",
+          "Musculeuse gastrique",
+          "Muqueuse gastrique",
+          "Pancréas",
+        ],
+        type: "text-multiple",
+      },
+    ],
+  },
+};
 
-corpsHumain1113: {
-    title: "Corps humain chapitre 11 - Test 3",
-    description: "Questions à choix unique sur la régulation de la digestion.",
-    questions: [{
-        question: "Quel est le stimulus de la phase céphalique?",
-        choices: [
-            "Arrivée du bol alimentaire dans l'estomac",
-            "Arrivée du chyme dans le duodénum",
-            "Présence d'aliments appétissants ou pensée à des aliments appétissants",
-            "Augmentation de la concentration en protéines dans l'estomac"
-        ],
-        correctAnswer: 2,
-        type: "radio"
-    }, {
-        question: "Quel est le stimulus de la phase gastrique?",
-        choices: [
-            "Arrivée du bol alimentaire dans l'estomac",
-            "Arrivée du chyme dans le duodénum",
-            "Présence d'aliments appétissants",
-            "Arrivée du chyme dans le gros intestin"
-        ],
-        correctAnswer: 0,
-        type: "radio"
-    }, {
-        question: "Quel est le stimulus de la phase intestinale?",
-        choices: [
-            "Arrivée du bol alimentaire dans l'estomac",
-            "Arrivée du chyme dans le duodénum",
-            "Arrivée des aliments dans la bouche",
-            "Présence d'aliments appétissants"
-        ],
-        correctAnswer: 1,
-        type: "radio"
-    }, {
-        question: "Quel système nerveux autonome intervient dans la phase céphalique?",
-        choices: [
-            "SNA sympathique",
-            "SNA parasympathique",
-            "Système nerveux somatique"
-        ],
-        correctAnswer: 1,
-        type: "radio"
-    }, {
-        question: "Quel système nerveux autonome intervient dans la régulation nerveuse de la phase gastrique?",
-        choices: [
-            "SNA sympathique",
-            "SNA parasympathique",
-            "Système nerveux somatique"
-        ],
-        correctAnswer: 1,
-        type: "radio"
-    }, {
-        question: "Quel système nerveux autonome intervient dans la régulation nerveuse de la phase intestinale?",
-        choices: [
-            "SNA sympathique",
-            "SNA parasympathique",
-            "Système nerveux somatique"
-        ],
-        correctAnswer: 0,
-        type: "radio"
-    }, {
-        question: "Quelle est l'action du sphincter pylorique durant la phase gastrique?",
-        choices: [
-            "Il se contracte",
-            "Il se relâche",
-            "Il demeure fermé"
-        ],
-        correctAnswer: 1,
-        type: "radio"
-    }, {
-        question: "Quelle est l'action du sphincter pylorique durant la régulation hormonale de la phase intestinale?",
-        choices: [
-            "Il se contracte",
-            "Il se relâche",
-            "Il demeure ouvert"
-        ],
-        correctAnswer: 0,
-        type: "radio"
-    }, {
-        question: "Quelle est l'action du sphincter œsophagien inférieur durant la phase gastrique?",
-        choices: [
-            "Il se relâche",
-            "Il se contracte",
-            "Il demeure ouvert"
-        ],
-        correctAnswer: 1,
-        type: "radio"
-    }, {
-        question: "Quelle est l'action du sphincter de l'ampoule hépatopancréatique sous l'effet de la CCK?",
-        choices: [
-            "Il se contracte",
-            "Il se relâche",
-            "Il demeure fermé"
-        ],
-        correctAnswer: 1,
-        type: "radio"
-    }]
-},
-
-corpsHumain1114: {
-    title: "Corps humain chapitre 11 - Test 4",
-    description: "Questions à choix multiples sur la régulation de la digestion.",
-    questions: [{
-        question: "Quels sont les déséquilibres de la phase gastrique nerveuse?",
-        choices: [
-            "Étirement de la paroi de l'estomac",
-            "Augmentation du pH gastrique",
-            "Diminution du pH gastrique",
-            "Étirement de la paroi du duodénum"
-        ],
-        correctAnswer: [0, 1],
-        type: "checkboxes"
-    }, {
-        question: "Quels sont les déséquilibres de la phase gastrique hormonale?",
-        choices: [
-            "Étirement de la paroi de l'estomac",
-            "Augmentation de la concentration en protéines",
-            "Augmentation du pH gastrique",
-            "Diminution du pH dans le duodénum",
-            "Augmentation de la concentration en triglycérides dans le duodénum"
-        ],
-        correctAnswer: [0, 1, 2],
-        type: "checkboxes"
-    }, {
-        question: "Quels sont les déséquilibres de la phase intestinale nerveuse?",
-        choices: [
-            "Étirement de la paroi du duodénum",
-            "Diminution du pH dans le duodénum",
-            "Étirement de la paroi de l'estomac",
-            "Augmentation du pH dans le duodénum"
-        ],
-        correctAnswer: [0, 1],
-        type: "checkboxes"
-    }, {
-        question: "Quels sont les déséquilibres de la phase intestinale hormonale?",
-        choices: [
-            "Diminution du pH dans le duodénum",
-            "Augmentation de la concentration en triglycérides",
-            "Augmentation de la concentration en protéines partiellement digérées",
-            "Augmentation du pH dans le duodénum",
-            "Diminution de la concentration en triglycérides"
-        ],
-        correctAnswer: [0, 1, 2],
-        type: "checkboxes"
-    }, {
-        question: "Quelles sont les actions des effecteurs durant la phase céphalique?",
-        choices: [
-            "Augmentation de la sécrétion de salive",
-            "Augmentation de la sécrétion de suc gastrique",
-            "Augmentation des contractions de la musculeuse gastrique",
-            "Diminution de la sécrétion de suc gastrique",
-            "Diminution des contractions de la musculeuse gastrique"
-        ],
-        correctAnswer: [0, 1, 2],
-        type: "checkboxes"
-    }, {
-        question: "Quelles sont les actions des effecteurs durant la phase gastrique?",
-        choices: [
-            "Augmentation des contractions de la musculeuse gastrique",
-            "Augmentation de la sécrétion de suc gastrique",
-            "Contraction du sphincter œsophagien inférieur",
-            "Relâchement du sphincter pylorique",
-            "Contraction du sphincter pylorique",
-            "Diminution de la sécrétion de suc gastrique"
-        ],
-        correctAnswer: [0, 1, 2, 3],
-        type: "checkboxes"
-    }, {
-        question: "Quelles sont les actions des effecteurs durant la phase intestinale nerveuse?",
-        choices: [
-            "Diminution des contractions de la musculeuse gastrique",
-            "Diminution de la sécrétion de suc gastrique",
-            "Augmentation des contractions de la musculeuse gastrique",
-            "Augmentation de la sécrétion de suc gastrique"
-        ],
-        correctAnswer: [0, 1],
-        type: "checkboxes"
-    }, {
-        question: "Quelles actions sont propres à la CCK, selon le tableau de la phase intestinale hormonale?",
-        choices: [
-            "Contraction de la vésicule biliaire",
-            "Relâchement du sphincter de l'ampoule hépatopancréatique",
-            "Augmentation de la sécrétion de bile par le foie",
-            "Augmentation des contractions de la musculeuse gastrique"
-        ],
-        correctAnswer: [0, 1],
-        type: "checkboxes"
-    }, {
-        question: "Quelles sont les actions communes de la sécrétine et de la CCK?",
-        choices: [
-            "Diminution des contractions de la musculeuse gastrique",
-            "Diminution de la sécrétion de suc gastrique",
-            "Contraction du sphincter pylorique",
-            "Augmentation de la sécrétion de suc pancréatique",
-            "Augmentation de la sécrétion de suc gastrique",
-            "Relâchement du sphincter pylorique"
-        ],
-        correctAnswer: [0, 1, 2, 3],
-        type: "checkboxes"
-    }, {
-        question: "Quelles sont les réponses de la boucle de régulation hormonale de la phase intestinale?",
-        choices: [
-            "Augmentation du pH dans le duodénum",
-            "Diminution de la concentration en triglycérides",
-            "Diminution de la concentration en protéines partiellement digérées",
-            "Diminution du pH dans le duodénum",
-            "Augmentation de la concentration en triglycérides"
-        ],
-        correctAnswer: [0, 1, 2],
-        type: "checkboxes"
-    }]
-},
-
-
-    };
 
 
     /* ========================================
