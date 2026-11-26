@@ -826,15 +826,15 @@ corpsHumain1111: {
     },{
         question: "Quelle(s) hormone(s) dimunue les contractions de la musculeuse gastrique?",
         correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
-        type: "text-multiple"
+        type: "text"
     },{
         question: "Quelle(s) hormone(s) diminue les sécrétions de la muqueuse gastrique?",
         correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
-        type: "text-multiple"
+        type: "text"
     },{
         question: "Quelle(s) hormone(s) augmente la sécrétion de suc pancréatique?",
         correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
-        type: "text-multiple"
+        type: "text"
     }]
 },
 corpsHumain1112: {
