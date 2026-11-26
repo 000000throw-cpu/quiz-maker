@@ -748,9 +748,33 @@ corpsHumain1111: {
         correctAnswer: ["Phase céphalique", "Céphalique"],
         type: "text"
     }, {
+        question: "Quelle phase de la digestion est déclenchée par l'arrivée du bol alimentaire dans l’estomac?",
+        correctAnswer: ["Phase gastrique", "Gastrique"],
+        type: "text"
+    },{
+        question: "Quelle phase de la digestion est déclenchée par l'arrivée du chyme dans le duodénum?",
+        correctAnswer: ["Phase intestinale", "Intestinale"],
+        type: "text"
+    },{
         question: "Quel est le centre de régulation de la phase céphalique?",
         correctAnswer: "Tronc cérébral",
         type: "text"
+    },{
+        question: "Quel est le centre de régulation de la phase gastrique? (Régulation nerveuse)",
+        correctAnswer: "Tronc cérébral et SNE",
+        type: "text"
+    }, {
+        question: "Quel est le centre de régulation de la phase intestinale? (Régulation nerveuse)",
+        correctAnswer: "Tronc cérébral et SNE",
+        type: "text"
+    }, {
+        question: "Quel est le récepteur et le centre de régulation de la phase gastrique? (Régulation hormonale)",
+        correctAnswer: ["Cellules G","Cellule G"],
+        type: "text"
+    }, {
+        question: "Quels sont le récepteur et le centre de régulation de la phase intestinal? (Régulation hormonale)",
+        correctAnswer: ["Cellules CCK"|| "Cellule CCK","Cellules S"|| "Cellule S"],
+        type: "text-multiple"
     }, {
         question: "Quel type de récepteur détecte l'étirement de la paroi de l'estomac?",
         correctAnswer: ["Mécanorécepteur", "Mécanorécepteurs"],
@@ -760,31 +784,59 @@ corpsHumain1111: {
         correctAnswer: ["Chimiorécepteur", "Chimiorécepteurs"],
         type: "text"
     }, {
-        question: "Quelles cellules agissent comme récepteurs et centre de régulation durant la phase gastrique hormonale?",
-        correctAnswer: ["Cellules G", "Cellule G"],
-        type: "text"
-    }, {
-        question: "Quelle hormone est sécrétée par les cellules G?",
+        question: "Quelle(s) hormone(s) est sécrétée par les cellules G?",
         correctAnswer: "Gastrine",
         type: "text"
     }, {
-        question: "Quelle hormone est sécrétée par les cellules CCK?",
+        question: "Quelle(s) hormone(s) est sécrétée par les cellules CCK?",
         correctAnswer: ["Cholécystokinine", "CCK"],
         type: "text"
     }, {
-        question: "Quelle hormone est sécrétée par les cellules S?",
+        question: "Quelle(s) hormone(s) est sécrétée par les cellules S?",
         correctAnswer: ["Sécrétine", "S"],
         type: "text"
+    },{
+        question: "Quelle(s) hormone(s) augmente les contractions de la musculeuse gastrique",
+        correctAnswer: "Gastrine",
+        type: "text"
+    },{
+        question: "Quelle(s) hormone(s) augmente les sécrétions de la muqueuse gastrique",
+        correctAnswer: "Gastrine",
+        type: "text"
     }, {
-        question: "Quelle hormone provoque la contraction de la vésicule biliaire?",
+        question: "Quelle(s) hormone(s) contracte le spincter oesophagien inférieur?",
+        correctAnswer: "Gastrine",
+        type: "text"
+    }, {
+        question: "Quelle(s) hormone(s) relâche le spincter pylorique?",
+        correctAnswer: "Gastrine",
+        type: "text"
+    },{
+        question: "Quelle(s) hormone(s) contracte la vésicule biliaire?",
         correctAnswer: ["Cholécystokinine", "CCK"],
         type: "text"
     }, {
-        question: "Quelle hormone augmente la sécrétion de bile par le foie?",
+        question: "Quelle(s) hormone(s) relâche le sphincter de l'ampoule hépatopancréatique?",
+        correctAnswer: ["Cholécystokinine", "CCK"],
+        type: "text"
+    },{
+        question: "Quelle(s) hormone(s) augmente la sécrétion de bile par le foie?",
         correctAnswer: "Sécrétine",
         type: "text"
+    },{
+        question: "Quelle(s) hormone(s) dimunue les contractions de la musculeuse gastrique?",
+        correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
+        type: "text-multiple"
+    },{
+        question: "Quelle(s) hormone(s) diminue les sécrétions de la muqueuse gastrique?",
+        correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
+        type: "text-multiple"
+    },{
+        question: "Quelle(s) hormone(s) augmente la sécrétion de suc pancréatique?",
+        correctAnswer: ["Sécrétine et CCK","Sécrétine CCK","CCK et Sécrétine","CCK Sécrétine"],
+        type: "text-multiple"
     }]
-}, 
+},
 corpsHumain1112: {
     title: "Corps humain chapitre 11 - Test 2",
     description: "Questions à réponses multiples sur la régulation de la digestion.",
