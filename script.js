@@ -784,7 +784,273 @@ corpsHumain1111: {
         correctAnswer: "Sécrétine",
         type: "text"
     }]
+}, 
+corpsHumain1112: {
+    title: "Corps humain chapitre 11 - Test 2",
+    description: "Questions à réponses multiples sur la régulation de la digestion.",
+    questions: [{
+        question: "Nommez les 5 déséquilibres de la phase céphalique.",
+        correctAnswer: [
+            "Vue",
+            "Odeur",
+            "Son",
+            "Goût",
+            "Toucher"
+        ],
+        type: "text-multiple"
+    }, {
+        question: "Nommez les 3 effecteurs de la phase céphalique.",
+        correctAnswer: [
+            "Glandes salivaires",
+            "Muqueuse gastrique",
+            "Musculeuse gastrique"
+        ],
+        type: "text-multiple"
+    }, {
+        question: "Nommez les 4 effecteurs de la phase gastrique.",
+        correctAnswer: [
+            "Musculeuse gastrique",
+            "Muqueuse gastrique",
+            "Sphincter œsophagien inférieur",
+            "Sphincter pylorique"
+        ],
+        type: "text-multiple"
+    }, {
+        question: "Nommez les 3 hormones qui participent à la régulation de la digestion dans les phases gastrique et intestinale.",
+        correctAnswer: [
+            "Gastrine",
+            "Cholécystokinine",
+            "Sécrétine"
+        ],
+        type: "text-multiple"
+    }, {
+        question: "Nommez les 6 effecteurs de la phase intestinale hormonale.",
+        correctAnswer: [
+            "Vésicule biliaire",
+            "Sphincter de l'ampoule hépatopancréatique",
+            "Foie",
+            "Musculeuse gastrique",
+            "Muqueuse gastrique",
+            "Sphincter pylorique",
+            "Pancréas"
+        ],
+        type: "text-multiple"
+    }]
 },
+
+corpsHumain1113: {
+    title: "Corps humain chapitre 11 - Test 3",
+    description: "Questions à choix unique sur la régulation de la digestion.",
+    questions: [{
+        question: "Quel est le stimulus de la phase céphalique?",
+        choices: [
+            "Arrivée du bol alimentaire dans l'estomac",
+            "Arrivée du chyme dans le duodénum",
+            "Présence d'aliments appétissants ou pensée à des aliments appétissants",
+            "Augmentation de la concentration en protéines dans l'estomac"
+        ],
+        correctAnswer: 2,
+        type: "radio"
+    }, {
+        question: "Quel est le stimulus de la phase gastrique?",
+        choices: [
+            "Arrivée du bol alimentaire dans l'estomac",
+            "Arrivée du chyme dans le duodénum",
+            "Présence d'aliments appétissants",
+            "Arrivée du chyme dans le gros intestin"
+        ],
+        correctAnswer: 0,
+        type: "radio"
+    }, {
+        question: "Quel est le stimulus de la phase intestinale?",
+        choices: [
+            "Arrivée du bol alimentaire dans l'estomac",
+            "Arrivée du chyme dans le duodénum",
+            "Arrivée des aliments dans la bouche",
+            "Présence d'aliments appétissants"
+        ],
+        correctAnswer: 1,
+        type: "radio"
+    }, {
+        question: "Quel système nerveux autonome intervient dans la phase céphalique?",
+        choices: [
+            "SNA sympathique",
+            "SNA parasympathique",
+            "Système nerveux somatique"
+        ],
+        correctAnswer: 1,
+        type: "radio"
+    }, {
+        question: "Quel système nerveux autonome intervient dans la régulation nerveuse de la phase gastrique?",
+        choices: [
+            "SNA sympathique",
+            "SNA parasympathique",
+            "Système nerveux somatique"
+        ],
+        correctAnswer: 1,
+        type: "radio"
+    }, {
+        question: "Quel système nerveux autonome intervient dans la régulation nerveuse de la phase intestinale?",
+        choices: [
+            "SNA sympathique",
+            "SNA parasympathique",
+            "Système nerveux somatique"
+        ],
+        correctAnswer: 0,
+        type: "radio"
+    }, {
+        question: "Quelle est l'action du sphincter pylorique durant la phase gastrique?",
+        choices: [
+            "Il se contracte",
+            "Il se relâche",
+            "Il demeure fermé"
+        ],
+        correctAnswer: 1,
+        type: "radio"
+    }, {
+        question: "Quelle est l'action du sphincter pylorique durant la régulation hormonale de la phase intestinale?",
+        choices: [
+            "Il se contracte",
+            "Il se relâche",
+            "Il demeure ouvert"
+        ],
+        correctAnswer: 0,
+        type: "radio"
+    }, {
+        question: "Quelle est l'action du sphincter œsophagien inférieur durant la phase gastrique?",
+        choices: [
+            "Il se relâche",
+            "Il se contracte",
+            "Il demeure ouvert"
+        ],
+        correctAnswer: 1,
+        type: "radio"
+    }, {
+        question: "Quelle est l'action du sphincter de l'ampoule hépatopancréatique sous l'effet de la CCK?",
+        choices: [
+            "Il se contracte",
+            "Il se relâche",
+            "Il demeure fermé"
+        ],
+        correctAnswer: 1,
+        type: "radio"
+    }]
+},
+
+corpsHumain1114: {
+    title: "Corps humain chapitre 11 - Test 4",
+    description: "Questions à choix multiples sur la régulation de la digestion.",
+    questions: [{
+        question: "Quels sont les déséquilibres de la phase gastrique nerveuse?",
+        choices: [
+            "Étirement de la paroi de l'estomac",
+            "Augmentation du pH gastrique",
+            "Diminution du pH gastrique",
+            "Étirement de la paroi du duodénum"
+        ],
+        correctAnswer: [0, 1],
+        type: "checkboxes"
+    }, {
+        question: "Quels sont les déséquilibres de la phase gastrique hormonale?",
+        choices: [
+            "Étirement de la paroi de l'estomac",
+            "Augmentation de la concentration en protéines",
+            "Augmentation du pH gastrique",
+            "Diminution du pH dans le duodénum",
+            "Augmentation de la concentration en triglycérides dans le duodénum"
+        ],
+        correctAnswer: [0, 1, 2],
+        type: "checkboxes"
+    }, {
+        question: "Quels sont les déséquilibres de la phase intestinale nerveuse?",
+        choices: [
+            "Étirement de la paroi du duodénum",
+            "Diminution du pH dans le duodénum",
+            "Étirement de la paroi de l'estomac",
+            "Augmentation du pH dans le duodénum"
+        ],
+        correctAnswer: [0, 1],
+        type: "checkboxes"
+    }, {
+        question: "Quels sont les déséquilibres de la phase intestinale hormonale?",
+        choices: [
+            "Diminution du pH dans le duodénum",
+            "Augmentation de la concentration en triglycérides",
+            "Augmentation de la concentration en protéines partiellement digérées",
+            "Augmentation du pH dans le duodénum",
+            "Diminution de la concentration en triglycérides"
+        ],
+        correctAnswer: [0, 1, 2],
+        type: "checkboxes"
+    }, {
+        question: "Quelles sont les actions des effecteurs durant la phase céphalique?",
+        choices: [
+            "Augmentation de la sécrétion de salive",
+            "Augmentation de la sécrétion de suc gastrique",
+            "Augmentation des contractions de la musculeuse gastrique",
+            "Diminution de la sécrétion de suc gastrique",
+            "Diminution des contractions de la musculeuse gastrique"
+        ],
+        correctAnswer: [0, 1, 2],
+        type: "checkboxes"
+    }, {
+        question: "Quelles sont les actions des effecteurs durant la phase gastrique?",
+        choices: [
+            "Augmentation des contractions de la musculeuse gastrique",
+            "Augmentation de la sécrétion de suc gastrique",
+            "Contraction du sphincter œsophagien inférieur",
+            "Relâchement du sphincter pylorique",
+            "Contraction du sphincter pylorique",
+            "Diminution de la sécrétion de suc gastrique"
+        ],
+        correctAnswer: [0, 1, 2, 3],
+        type: "checkboxes"
+    }, {
+        question: "Quelles sont les actions des effecteurs durant la phase intestinale nerveuse?",
+        choices: [
+            "Diminution des contractions de la musculeuse gastrique",
+            "Diminution de la sécrétion de suc gastrique",
+            "Augmentation des contractions de la musculeuse gastrique",
+            "Augmentation de la sécrétion de suc gastrique"
+        ],
+        correctAnswer: [0, 1],
+        type: "checkboxes"
+    }, {
+        question: "Quelles actions sont propres à la CCK, selon le tableau de la phase intestinale hormonale?",
+        choices: [
+            "Contraction de la vésicule biliaire",
+            "Relâchement du sphincter de l'ampoule hépatopancréatique",
+            "Augmentation de la sécrétion de bile par le foie",
+            "Augmentation des contractions de la musculeuse gastrique"
+        ],
+        correctAnswer: [0, 1],
+        type: "checkboxes"
+    }, {
+        question: "Quelles sont les actions communes de la sécrétine et de la CCK?",
+        choices: [
+            "Diminution des contractions de la musculeuse gastrique",
+            "Diminution de la sécrétion de suc gastrique",
+            "Contraction du sphincter pylorique",
+            "Augmentation de la sécrétion de suc pancréatique",
+            "Augmentation de la sécrétion de suc gastrique",
+            "Relâchement du sphincter pylorique"
+        ],
+        correctAnswer: [0, 1, 2, 3],
+        type: "checkboxes"
+    }, {
+        question: "Quelles sont les réponses de la boucle de régulation hormonale de la phase intestinale?",
+        choices: [
+            "Augmentation du pH dans le duodénum",
+            "Diminution de la concentration en triglycérides",
+            "Diminution de la concentration en protéines partiellement digérées",
+            "Diminution du pH dans le duodénum",
+            "Augmentation de la concentration en triglycérides"
+        ],
+        correctAnswer: [0, 1, 2],
+        type: "checkboxes"
+    }]
+},
+
 
     };
 
