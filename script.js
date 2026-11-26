@@ -739,7 +739,53 @@
                     type: "text",
                 },
             ]
-        }
+        },
+corpsHumain1111: {
+    title: "Corps humain chapitre 11 - Test 1",
+    description: "Questions à réponse courte sur la régulation de la digestion.",
+    questions: [{
+        question: "Quelle phase de la digestion est déclenchée par la présence d'aliments appétissants ou la pensée à des aliments appétissants?",
+        correctAnswer: ["Phase céphalique", "Céphalique"],
+        type: "text"
+    }, {
+        question: "Quel est le centre de régulation de la phase céphalique?",
+        correctAnswer: "Tronc cérébral",
+        type: "text"
+    }, {
+        question: "Quel type de récepteur détecte l'étirement de la paroi de l'estomac?",
+        correctAnswer: ["Mécanorécepteur", "Mécanorécepteurs"],
+        type: "text"
+    }, {
+        question: "Quel type de récepteur détecte les variations du pH gastrique?",
+        correctAnswer: ["Chimiorécepteur", "Chimiorécepteurs"],
+        type: "text"
+    }, {
+        question: "Quelles cellules agissent comme récepteurs et centre de régulation durant la phase gastrique hormonale?",
+        correctAnswer: ["Cellules G", "Cellule G"],
+        type: "text"
+    }, {
+        question: "Quelle hormone est sécrétée par les cellules G?",
+        correctAnswer: "Gastrine",
+        type: "text"
+    }, {
+        question: "Quelle hormone est sécrétée par les cellules CCK?",
+        correctAnswer: ["Cholécystokinine", "CCK"],
+        type: "text"
+    }, {
+        question: "Quelle hormone est sécrétée par les cellules S?",
+        correctAnswer: ["Sécrétine", "S"],
+        type: "text"
+    }, {
+        question: "Quelle hormone provoque la contraction de la vésicule biliaire?",
+        correctAnswer: ["Cholécystokinine", "CCK"],
+        type: "text"
+    }, {
+        question: "Quelle hormone augmente la sécrétion de bile par le foie?",
+        correctAnswer: "Sécrétine",
+        type: "text"
+    }]
+},
+
     };
 
 
